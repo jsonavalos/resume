@@ -1,11 +1,18 @@
 import React from 'react';
 import UCSD from './geisel.jpeg'
 import SWC from './SWC.png'
-
+import Experience from "./Experience";
+import Home from "./Home";
+import Contact from "./Contact";
+import Skills from "./Skills";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from "react-router-dom";
 function Education() {
     return (
       <div>
-
           <div className="hero-body has-background-grey-light">
               <div className="container has-text-centered">
                   <div className="columns is-vcentered">
@@ -23,7 +30,7 @@ function Education() {
                           </h2>
                           <br />
                           <p className="has-text-centered">
-                              <a className="button is-medium is-info is-outlined">
+                              <a className="button is-medium is-info is-outlined" href="/">
                                   Coursework
                               </a>
                           </p>
@@ -59,6 +66,12 @@ function Education() {
                   </div>
               </div>
           </div>
+
+
+
+
+
+
       </div>
 ///Users/jsonavalos/app/my-app/src/components/navigationBar
     );

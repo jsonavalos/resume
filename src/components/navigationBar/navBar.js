@@ -3,13 +3,13 @@ import Education from "./Education";
 import Experience from "./Experience";
 import Home from "./Home";
 import Contact from "./Contact";
+import Skills from "./Skills";
 import SIGN from "./signature.png"
 import logo from "./Jason Avalos.png"
 import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
 } from "react-router-dom";
 
 function NavBAr() {
@@ -60,8 +60,8 @@ function NavBAr() {
 
                         {/* Experience */}
                         <span className="navbar-item">
-                    <a className="button is-white is-outlined" href="/experience">
-                      <span>Projects</span>
+                    <a className="button is-white is-outlined" href="/technicalskills">
+                      <span> Technical Skills</span>
                     </a>
                   </span>
                         {/* Experience  */}
@@ -121,6 +121,9 @@ function NavBAr() {
                 </Route>
                 <Route exact path="/contact">
                     <Contact />
+                </Route>
+                <Route exact path="/technicalskills">
+                    <Skills/>
                 </Route>
             </Switch>
 

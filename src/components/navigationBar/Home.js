@@ -2,9 +2,16 @@ import React from 'react';
 import UCSD from './geisel.jpeg'
 import SWC from './SWC.png'
 
+
 function Home() {
     return (
         <div>
+
+
+
+
+
+
 
             <section className="hero is-info is-fullheight has-background-grey">
                 <div className="hero-head">
