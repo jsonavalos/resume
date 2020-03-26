@@ -92,7 +92,7 @@ function NavBAr() {
                             <span className="navbar-item">
                     <a className="button is-white is-outlined" href="/contact">
                         <span className="icon">
-                        <i className="fa fa-home" />
+                        <i className="fa fa-phone" />
                       </span>
                       <span>Contact</span>
                     </a>

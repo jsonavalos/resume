@@ -5,6 +5,10 @@ function Contact() {
     return (
         <div>
 
+
+
+
+
             <section className="hero is-fullheight has-background-grey-lighter">
                 <div className="hero-body">
                     <div className="container has-text-centered">
@@ -13,9 +17,9 @@ function Contact() {
                                 <h1 className="title is-1">Contact Information</h1>
                                 <p className="is-size-4">Information</p>
                                 <div className="social-media">
-                                    <a href="https://facebook.com" target="_blank" className="button is-light is-large"><i className="fa fa-facebook-square" aria-hidden="true" /></a>
-                                    <a href="https://instagram.com/jsonavalos" target="_blank" className="button is-light is-large"><i className="fa fa-instagram" aria-hidden="true" /></a>
-                                    <a href="https://twitter.com" target="_blank" className="button is-light is-large"><i className="fa fa-twitter" aria-hidden="true" /></a>
+                                    <a href="mailto:jsonavalos@gmail.com" target="_blank" className="button is-light is-large"><i className="fa fa-envelope" aria-hidden="true" /></a>
+                                    <a href="https://instagram.com/jsonavalos" target="_blank" className="button is-light is-large"><i className="fab fa-linkedin" aria-hidden="true" /></a>
+                                    <a href="https://twitter.com" target="_blank" className="button is-light is-large"><i className="fab fa-twitter" aria-hidden="true" /></a>
                                 </div>
                             </div>
                             <div className="column is-one-third has-text-left">
