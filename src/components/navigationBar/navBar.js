@@ -4,7 +4,7 @@ import Experience from "./Experience";
 import Home from "./Home";
 import Contact from "./Contact";
 import Skills from "./Skills";
-import SIGN from "./signature.png"
+import Error from "./Error"
 import logo from "./Jason Avalos.png"
 import {
     BrowserRouter as Router,
@@ -18,7 +18,7 @@ function NavBAr() {
             <nav className="navbar is-dark">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="/">
-                        <img src={logo}  width={200} height={170} />
+                        <img src={logo}  width={200} height={170} alt="logo"/>
                     </a>
                     <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                         <span />
@@ -125,9 +125,28 @@ function NavBAr() {
                 <Route exact path="/technicalskills">
                     <Skills/>
                 </Route>
+                <Route > {/*  in case, no url is working    */}
+                    <Error/>
+                </Route>
             </Switch>
 
-
+            <nav className="level is-size-5">
+                <p className="level-item has-text-centered">
+                    <a className="link is-info" href="/education">Education</a>
+                </p>
+                <p className="level-item has-text-centered">
+                    <a className="link is-info" href="/experience">Experience</a>
+                </p>
+                <p className="level-item has-text-centered" href="/">
+                    <img src={logo}  alt="" style={{height: '30px'}}/>
+                </p>
+                <p className="level-item has-text-centered" >
+                    <a className="link is-info" href="/technicalskills">Technical Skills</a>
+                </p>
+                <p className="level-item has-text-centered">
+                    <a className="link is-info" href="/contact">Contact</a>
+                </p>
+            </nav>
 
 
 

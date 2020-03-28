@@ -1,5 +1,5 @@
 import React from 'react';
-import TestPicture from './pelican.png'
+
 import JAVA from './java.png'
 import PYTHON from './imagesSkills/python.png'
 
@@ -10,6 +10,8 @@ import HTML from './imagesSkills/html.png'
 import JAVASCRIPT from './imagesSkills/javascript.png'
 import R from './imagesSkills/R.png'
 import CSS from './imagesSkills/css.png'
+import ASSEMBLY from './imagesSkills/assembly.png'
+import C from './imagesSkills/C.png'
 function Skills() {
     return (
         <div>
@@ -54,7 +56,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={PYTHON} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src={ASSEMBLY} alt="" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Assembly</h5>
@@ -100,6 +102,16 @@ function Skills() {
                                     </div>
                                 </div>
                                 <h5 className="title is-5">CSS</h5>
+                                <p className="subtitle is-size-7">100%</p>
+                            </div>
+
+                            <div className="column is-3">
+                                <div className="level">
+                                    <div className="level-item">
+                                        <figure className="image is-96x96"><img className="" src={C} alt="" /></figure>
+                                    </div>
+                                </div>
+                                <h5 className="title is-5">C</h5>
                                 <p className="subtitle is-size-7">100%</p>
                             </div>
 
@@ -170,6 +182,7 @@ function Skills() {
                                 <h5 className="title is-5">Rstudio</h5>
                                 <p className="subtitle is-size-7">100%</p>
                             </div>
+
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
@@ -179,6 +192,24 @@ function Skills() {
                                 <h5 className="title is-5">Matlab</h5>
                                 <p className="subtitle is-size-7">100%</p>
                             </div>
+
+                            <div className="column is-3">
+                                <div className="level">
+                                    <div className="level-item">
+                                        <figure className="image is-128x128"><img className="is-rounded" src={SIGN} alt="" /></figure>
+                                    </div>
+                                </div>
+                                <h5 className="title is-5">Linux</h5>
+                                <p className="subtitle is-size-7">100%</p>
+                            </div>
+
+
+
+
+
+
+
+
                         </div>
                     </div>
                 </section>

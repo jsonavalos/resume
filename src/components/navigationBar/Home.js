@@ -1,6 +1,4 @@
 import React from 'react';
-import UCSD from './geisel.jpeg'
-import SWC from './SWC.png'
 
 
 function Home() {
@@ -30,7 +28,7 @@ function Home() {
                                         <input className="input" type="text" placeholder="Enter your email" />
                                     </p>
                                     <p className="control">
-                                        <a className="button is-info">
+                                        <a className="button is-info" href="/">
                                             Notify Me
                                         </a>
                                     </p>
@@ -41,9 +39,12 @@ function Home() {
                 </div>
             </section>
 
+<section className="has-text-grey-dark">
 
 
 
+
+        </section>
 
 
 

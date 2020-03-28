@@ -36,11 +36,61 @@ function Experience() {
 
 
 
-                                <div className="card-image level-left">
+                                <div className="card-image level-left is-size-10">
                                     <figure >
-                                        <img src={OLC} width={200} height={50}  />
+                                        <img src={OLC} width={200} height={50}  alt="OLC"/>
                                     </figure>
+
+
+                                    <div className="card">
+
+                                        <header className="card-header has-background-success ">
+                                            <p className="card-header-title is-centered">
+                                                            Tasks
+                                            </p>
+                                        </header>
+
+                                        <div className="card-content">
+                                            <div className="content">
+                                                <ul>
+                                                    <li>nkkkkkkkkkkkkkkkkkkmmkmkkhi</li>
+                                                    <li>hi</li>
+                                                    <li>hi</li>
+                                                    <li>hi</li>
+                                                    <li>hi</li>
+                                                   <br/>
+                                                   <br/>
+                                                    <br/>
+                                                    <br/>
+                                                    <br/>
+                                                    <br/>
+
+
+
+                                                </ul>
+
+
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
                                 </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
                             </div>

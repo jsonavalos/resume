@@ -1,5 +1,5 @@
-import React, {Fragment} from 'react';
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
 import NavBAr from "./components/navigationBar/navBar";
 

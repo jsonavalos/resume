@@ -1,8 +1,10 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import UCSD from './geisel.jpeg'
 import SWC from './SWC.png'
 
-import CustomizedDialogs from "./Modal";
+
+import { Wave } from 'react-animated-text'
+
 
 
 
@@ -95,7 +97,7 @@ function Education() {
 
 
     return (
-      <div>
+      <div className="hero-body has-background-grey-light">
           <div className="hero-body has-background-grey-light">
               <div className="container has-text-centered">
                   <div className="columns is-vcentered">
@@ -106,7 +108,7 @@ function Education() {
                       </div>
                       <div className="column is-6 is-offset-1">
                           <h1 className="title is-2">
-                              University of California, San Diego
+                              <Wave text="University of California, San Diego"  effect="stretch" effectChange={1.10} />
                           </h1>
                           <h2 className="subtitle is-4">
                               B.S. Mathematics - Computer Science
@@ -127,8 +129,13 @@ function Education() {
 
                       <div className="column is-6 is-offset-1">
                           <h1 className="title is-2">
-                              Southwestern College
+                              <h1 className="title is-2">
+                                  <Wave text="Southwestern College"  effect="stretch" effectChange={1.10} />
+                              </h1>
                           </h1>
+
+
+
                           <h2 className="subtitle is-4">
                               A.S Mathematics
                               <br/>
@@ -153,58 +160,114 @@ function Education() {
 
 
           <Dialog onClose={handleClose} className="dialog2 has-text-centered " aria-labelledby="customized-dialog-title" open={open}>
-              <DialogTitle id="customized-dialog-title" className="is-info" onClose={handleClose.bind(this,"dialog1close")}>
+              <DialogTitle id="customized-dialog-title" className="has-background-primary" onClose={handleClose.bind(this,"dialog1close")}>
                   UCSD Coursework
               </DialogTitle>
               <DialogContent dividers>
 
-                  <div className="tags">
-                      <span className="tag is-info is-light is-medium">PRE-CALCULUS WITH TRIGONOMETRY</span>
-                      <span className="tag is-info is-light is-medium">ELEMENTARY STATISTICS</span>
-                      <span className="tag is-info is-light is-medium">INTRODUCTION TO COMPUTER PROGRAMMING</span>
-                      <span className="tag is-info is-light is-medium">DATA STRUCTURES AND ALGORITHMS</span>
-                      <span className="tag is-info is-light is-medium">COMPUTER ORGANIZATION AND ARCHITECTURE</span>
-                      <span className="tag is-info is-light is-medium">ANALYTIC GEOMETRY AND CALCULUS I,II,III</span>
-                      <span className="tag is-info is-light is-medium">INTRODUCTION TO DIFFERENTIAL EQUATIONS</span>
-                      <span className="tag is-info is-light is-medium">INTRODUCTION TO LINEAR ALGEBRA</span>
-                      <span className="tag is-info is-light is-medium">DISCRETE MATHEMATICS</span>
+
+
+
+
+
+                  <div className="content">
+                      <p className="title is-2 is-spaced">
+                      <Wave text="Computer Science"  effect="stretch" effectChange={1.10} />
+                      </p>
+
+                      <ol type="1">
+                          <li >THEORY OF COMPUTABILITY</li>
+                          <li >COMPUTER IMPLEMENTATIONS OF DATA STRUCTURES</li>
+                          <li >DESIGN AND ANALYSIS OF ALGORITHMS</li>
+                          <li>MATHEMATICS FOR ALGORITHMS AND SYSTEMS ANALYSIS (FOUNDATIONS OF COMPUTER SCIENCE)</li>
+                          <li>SOFTWARE TOOLS AND TECHNIQUES</li>
+                          <li>SOFTWARE ENGINEERING</li>
+                          <li>PRINCIPLES OF COMPUTER OPERATING SYSTEMS</li>
+                          <li>ADVANCED SOFTWARE ENGINEERING</li>
+                      </ol>
+
                   </div>
+                  <hr/>
+                  <div className="content">
+
+
+
+                          <p className="title is-2 is-spaced">
+                              <Wave text="Mathematics"  effect="stretch" effectChange={1.10} />
+                          </p>
+
+
+
+                      <ol type="1">
+                          <li>INTRODUCTION TO CRYPTOGRAPHY</li>
+                          <li>THE MATHEMATICS OF MODERN CRYPTOGRAPHY</li>
+                          <li>INTRO TO COMPUTATIONAL STATISTICS</li>
+                          <li >MATHEMATICAL REASONING</li>
+                          <li >MODERN APPLIED ALGEBRA I,II</li>
+                          <li >ANALYTIC GEOMETRY AND CALCULUS I,II,III</li>
+                          <li>NUMERICAL LINEAR ALGEBRA I,II,III</li>
+                          <li >INTRO TO PROBABILITY</li>
+                          <li >COMBINATORICS</li>
+                          <li ></li>
+                      </ol>
+
+                  </div>
+
+
+
 
                   <Typography gutterBottom>
                   </Typography>
 
               </DialogContent>
               <DialogActions>
-                  <Button autoFocus onClick={handleClose.bind(this,"dialog1close")} color="primary">
-                      Save changes
+                  <Button autoFocus className="button is-info" onClick={handleClose.bind(this,"dialog1close")} color="danger">
+                      OK
                   </Button>
               </DialogActions>
           </Dialog>
 
 
           {/* eslint-disable-next-line no-undef */}
-          <Dialog onClose={handleClose} className="dialog2 has-text-centered" aria-labelledby="customized-dialog-title" open={open2}>
-              <DialogTitle id="customized-dialog-title" onClose={handleClose}>
+          <Dialog onClose={handleClose} className="dialog2 has-text-centered " aria-labelledby="customized-dialog-title" open={open2}>
+              <DialogTitle id="customized-dialog-title" className="has-background-primary" onClose={handleClose}>
                   SWC Coursework
               </DialogTitle>
               <DialogContent dividers>
-                  <Typography gutterBottom>
-                      Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-                      in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                  </Typography>
-                  <Typography gutterBottom>
-                      Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-                      lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  </Typography>
-                  <Typography gutterBottom>
-                      Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
-                      scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus
-                      auctor fringilla.
-                  </Typography>
+
+                  <div className="content">
+                      <p className="title is-2 is-spaced">
+                          <Wave text="Mathematics"  effect="stretch" effectChange={1.10} />
+                      </p>
+                      <ol type="1">
+                          <li >PRE-CALCULUS WITH TRIGONOMETRY</li>
+                          <li >ELEMENTARY STATISTICS</li>
+                          <li >ANALYTIC GEOMETRY AND CALCULUS I,II,III</li>
+                          <li >INTRODUCTION TO DIFFERENTIAL EQUATIONS</li>
+                          <li >INTRODUCTION TO LINEAR ALGEBRA</li>
+                          <li >DISCRETE MATHEMATICS</li>
+                      </ol>
+
+                  </div>
+                  <hr/>
+                  <div className="content">
+                      <p className="title is-2 is-spaced">
+                          <Wave text="Computer Science"  effect="stretch" effectChange={1.10} />
+                      </p>
+                      <ol type="1">
+                          <li >INTRODUCTION TO COMPUTER PROGRAMMING</li>
+                          <li >DATA STRUCTURES AND ALGORITHMS</li>
+                          <li >COMPUTER ORGANIZATION AND ARCHITECTURE</li>
+                      </ol>
+
+                  </div>
+
+
+
               </DialogContent>
               <DialogActions>
-                  <Button autoFocus onClick={handleClose} color="primary">
-                      Save changes
+                  <Button autoFocus className="button is-info" onClick={handleClose} color="primary">
+                      Ok
                   </Button>
               </DialogActions>
           </Dialog>
