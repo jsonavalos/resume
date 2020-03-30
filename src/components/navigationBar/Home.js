@@ -1,9 +1,10 @@
 import React from 'react';
-
+import './CSSfiles/HomeCSS.css'
+import {Wave} from "react-animated-text";
 
 function Home() {
     return (
-        <div>
+        <div id="Home" className="hero-body">
 
 
 
@@ -11,30 +12,25 @@ function Home() {
 
 
 
-            <section className="hero is-info is-fullheight has-background-grey">
-                <div className="hero-head">
+            <section className="hero-body">
 
-                </div>
                 <div className="hero-body">
-                    <div className="container has-text-centered">
-                        <div className="column is-6 is-offset-3">
-                            <h1 className="title">
-                                Jason Avalos
-                            </h1>
+                    <div className="container  is-centered">
 
-                            <div className="box">
-                                <div className="field is-grouped">
-                                    <p className="control is-expanded">
-                                        <input className="input" type="text" placeholder="Enter your email" />
-                                    </p>
-                                    <p className="control">
-                                        <a className="button is-info" href="/">
-                                            Notify Me
-                                        </a>
-                                    </p>
-                                </div>
+                            <br/> <br/>  <br/><br/> <br/>  <br/>
+                            <div className="column is-6 is-offset-3 is-centered">
+                                <progress className="progress is-small is-primary" max="100">15%</progress>
                             </div>
+                            <h1 className="title " id="MainPageTitle">
+                                <Wave text="Jason Avalos"  effect="stretch" effectChange={1.10} />
+                            </h1>
+                        <div className="column is-6 is-offset-3 is-centered">
+                            <progress className="progress is-small is-primary" max="100">15%</progress>
                         </div>
+
+
+
+
                     </div>
                 </div>
             </section>

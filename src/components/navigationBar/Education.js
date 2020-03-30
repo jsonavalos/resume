@@ -1,7 +1,7 @@
 import React from 'react';
 import UCSD from './geisel.jpeg'
 import SWC from './SWC.png'
-
+import './CSSfiles/HomeCSS.css'
 
 import { Wave } from 'react-animated-text'
 
@@ -97,25 +97,27 @@ function Education() {
 
 
     return (
-      <div className="hero-body has-background-grey-light">
-          <div className="hero-body has-background-grey-light">
+
+
+      <div id="education" className="hero-body ">
+          <div className="hero-body ">
               <div className="container has-text-centered">
                   <div className="columns is-vcentered">
                       <div className="column is-5">
                           <figure className="image is-4by3" >
-                              <img src={UCSD} alt="Description" />
+                              <img src={UCSD} alt="Description" id="educationimages" />
                           </figure>
                       </div>
                       <div className="column is-6 is-offset-1">
-                          <h1 className="title is-2">
+                          <h1 className="title is-2 " id="ucsdTitle">
                               <Wave text="University of California, San Diego"  effect="stretch" effectChange={1.10} />
                           </h1>
-                          <h2 className="subtitle is-4">
+                          <h2 className="subtitle is-4 is-white" id="degrees">
                               B.S. Mathematics - Computer Science
                           </h2>
                           <br />
                           <p className="has-text-centered">
-                              <a className="button is-medium is-info is-outlined" onClick={handleClickOpen.bind(this, "dialog1")}>
+                              <a className="button is-medium is-primary is-outlined" onClick={handleClickOpen.bind(this, "dialog1")}>
                                   Coursework
                               </a>
                           </p>
@@ -129,28 +131,28 @@ function Education() {
 
                       <div className="column is-6 is-offset-1">
                           <h1 className="title is-2">
-                              <h1 className="title is-2">
+                              <h1 className="title is-2" id="ucsdTitle">
                                   <Wave text="Southwestern College"  effect="stretch" effectChange={1.10} />
                               </h1>
                           </h1>
 
 
 
-                          <h2 className="subtitle is-4">
+                          <h2 className="subtitle is-4" id="degrees">
                               A.S Mathematics
                               <br/>
                               A.A Mathematics
                           </h2>
                           <br />
                           <p className="has-text-centered">
-                              <a className="button is-medium is-info is-outlined" onClick={handleClickOpen.bind(this, "dialog2")}>
+                              <a className="button is-medium is-primary is-outlined" onClick={handleClickOpen.bind(this, "dialog2")}>
                                   Coursework
                               </a>
                           </p>
                       </div>
                       <div className="column is-5">
-                          <figure className="image is-4by3">
-                              <img src={SWC} alt="Description22" />
+                          <figure className="image is-4by3" >
+                              <img src={SWC} alt="Description22" id="educationimages" />
                           </figure>
                       </div>
                   </div>
@@ -266,7 +268,7 @@ function Education() {
 
               </DialogContent>
               <DialogActions>
-                  <Button autoFocus className="button is-info" onClick={handleClose} color="primary">
+                  <Button autoFocus className="button is-info is-outlined" onClick={handleClose} color="primary">
                       Ok
                   </Button>
               </DialogActions>
