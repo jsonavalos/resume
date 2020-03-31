@@ -68,12 +68,18 @@ function NavBAr() {
 
 
                         <div className="navbar-item has-dropdown is-hoverable">
-                            <a className="navbar-link" href="/documentation/overview/start/">
-                                More
+
+
+                            <span className="navbar-item">
+                            <a className="navbar-link button is-white is-outlined" href="/">
+                                <span> Projects</span>
                             </a>
+                             </span>
+
+
                             <div className="navbar-dropdown is-boxed">
-                                <a className="navbar-item" href="/documentation/overview/start/">
-                                    Mechandise
+                                <a className="navbar-item has-text-centered" href="/documentation/overview/start/">
+                                    Webapps
                                 </a>
                                 <a className="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
                                     Extras

@@ -4,7 +4,7 @@ import {Wave} from "react-animated-text";
 
 function Home() {
     return (
-        <div id="Home" className="hero-body">
+        <div id="Home" className="hero-body" >
 
 
 
@@ -12,7 +12,7 @@ function Home() {
 
 
 
-            <section className="hero-body">
+            <section className="hero-body" >
 
                 <div className="hero-body">
                     <div className="container  is-centered">
@@ -33,6 +33,8 @@ function Home() {
 
                     </div>
                 </div>
+
+
             </section>
 
 <section className="has-text-grey-dark">

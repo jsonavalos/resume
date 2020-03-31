@@ -78,8 +78,8 @@ function Experience() {
                                     </div>
                                 </div>
 
-
-                                <div className="card">
+          <div className="column is-gapless">
+                                <div className="card ">
                                     <header className="card-header has-background-success ">
                                         <p className="card-header-title is-centered">
                                             DUTIES AND RESPONSABILITIES
@@ -110,7 +110,7 @@ function Experience() {
                                 </div>
 
 
-
+                            </div>
 
 
 
@@ -139,7 +139,7 @@ function Experience() {
 
 
 
-<div className="columns is-gapless">
+                           <div className="columns is-gapless">
                                 <div className="card">
 
                                     <header className="card-header has-background-success ">
@@ -160,12 +160,15 @@ function Experience() {
                                         </div>
                                     </div>
                                 </div>
-                  <div className="column is-center">
-                  <br/><br/>
+
+
                                 <figure >
                                     <img src={DESK} width={200} height={100}  alt="OLC"/>
                                 </figure>
-</div>
+
+
+
+
                             </div>
 
 
