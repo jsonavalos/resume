@@ -25,7 +25,7 @@ position: center;
 }
 
 #education {
-    background-image: url("another.jpg");
+    background-image: url("nature.jpg");
     min-height: 750px;
 
 }
@@ -47,8 +47,8 @@ position: center;
 #degrees {
 
     font-family: Helvetica, serif;
-    font-size: 25px;
-    color: red;
+    font-size: 26px;
+    color: white;
     position: center;
     text-align: center;
     text-align-all: center;
@@ -70,5 +70,13 @@ position: center;
     background-image: url("503216.jpg");
     min-height: 750px;
 
+
+}
+
+#experience{
+
+    background-image: url("blackandwhite.png");
+    min-height: 750px;
+    background-repeat: space;
 
 }
