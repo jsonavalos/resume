@@ -16,9 +16,9 @@ function Contact() {
                             <div className="column is-two-thirds has-text-centered">
                                 <h1 className="title is-size-1" id="ucsdTitle">Professional Profiles</h1>
                                 <div className="social-media">
-                                    <a href="mailto:jsonavalos@gmail.com"  target="_blank" className="button is-light is-large"><i className="fa fa-envelope" aria-hidden="true" /></a>
-                                    <a href="https://linkedin.com/in/jsonavalos" target="_blank" className="button is-light is-large"><i className="fab fa-linkedin" aria-hidden="true" /></a>
-                                    <a href="https://github.com/jsonavalos" target="_blank" className="button is-light is-large"><i className="fab fa-github" aria-hidden="true" /></a>
+                                    <a href="mailto:jsonavalos@gmail.com" rel="noopener noreferrer" target="_blank" className="button is-light is-large"> <i className="fa fa-envelope" aria-hidden="true" /></a>
+                                    <a href="https://linkedin.com/in/jsonavalos" rel="noopener noreferrer" target="_blank" className="button is-light is-large"> <i className="fab fa-linkedin" aria-hidden="true" /></a>
+                                    <a href="https://github.com/jsonavalos" rel="noopener noreferrer" target="_blank" className="button is-light is-large"> <i className="fab fa-github" aria-hidden="true" /></a>
                                 </div>
                             </div>
 
