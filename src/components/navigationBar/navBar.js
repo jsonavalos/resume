@@ -79,13 +79,13 @@ function NavBAr() {
 
                             <div className="navbar-dropdown is-boxed">
                                 <a className="navbar-item has-text-centered" href="/documentation/overview/start/">
-                                    Webapps
+                                    LinkUp Webapp
                                 </a>
                                 <a className="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-                                    Extras
+                                    Portfolio Webapp
                                 </a>
                                 <a className="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                                    Media
+                                    Chrome Extension
                                 </a>
                             </div>
                         </div>
