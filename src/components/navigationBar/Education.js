@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import UCSD from './geisel.jpeg'
 import SWC from './SWC.png'
@@ -117,7 +118,7 @@ function Education() {
                           </h2>
                           <br />
                           <p className="has-text-centered">
-                              <a className="button is-medium is-primary is-outlined" href="/#" onClick={handleClickOpen.bind(this, "dialog1")}>
+                              <a className="button is-medium is-primary is-outlined" onClick={handleClickOpen.bind(this, "dialog1")}>
                                   Coursework
                               </a>
                           </p>
@@ -145,7 +146,7 @@ function Education() {
                           </h2>
                           <br />
                           <p className="has-text-centered">
-                              <a className="button is-medium is-primary is-outlined" href="/#" rel="noopener noreferrer" onClick={handleClickOpen.bind(this, "dialog2")}>
+                              <a className="button is-medium is-primary is-outlined" rel="noopener noreferrer" onClick={handleClickOpen.bind(this, "dialog2")}>
                                   Coursework
                               </a>
                           </p>
