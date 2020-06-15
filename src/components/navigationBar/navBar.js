@@ -5,6 +5,7 @@ import Home from "./Home";
 import Contact from "./Contact";
 import Skills from "./Skills";
 import Error from "./Error"
+import LinkUp from "./LinkUp";
 import logo from "./Jason Avalos.png"
 import {
     BrowserRouter as Router,
@@ -78,7 +79,7 @@ function NavBAr() {
 
 
                             <div className="navbar-dropdown is-boxed">
-                                <a className="navbar-item has-text-centered" href="/documentation/overview/start/">
+                                <a className="navbar-item has-text-centered" href="/linkupproject">
                                     LinkUp Webapp
                                 </a>
                                 <a className="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
@@ -130,6 +131,9 @@ function NavBAr() {
                 </Route>
                 <Route exact path="/technicalskills">
                     <Skills/>
+                </Route>
+                <Route exact path="/linkupproject">
+                    <LinkUp/>
                 </Route>
                 <Route > {/*  in case, no url is working    */}
                     <Error/>
