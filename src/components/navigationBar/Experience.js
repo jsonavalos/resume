@@ -217,7 +217,7 @@ function Experience() {
 
                                 <div className="card-image is-centered">
                                     <figure >
-                                        <img src={INTERN} width={300} height={150}  />
+                                        <img src={INTERN} width={300} height={150} alt="Intener" />
                                     </figure>
                                 </div>
                             </div>
