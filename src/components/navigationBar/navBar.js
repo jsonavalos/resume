@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Skills from "./Skills";
 import Error from "./Error"
 import LinkUp from "./LinkUp";
+import Extension from "./Extension";
 import logo from "./Jason Avalos.png"
 import {
     BrowserRouter as Router,
@@ -21,11 +22,18 @@ function NavBAr() {
                     <a className="navbar-item" href="/">
                         <img src={logo}  width={200} height={170} alt="logo"/>
                     </a>
+
+
                     <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                         <span />
                         <span />
                         <span />
                     </div>
+
+
+
+
+                    
                 </div>
                 <div id="navbarExampleTransparentExample" className="navbar-menu">
 
@@ -85,7 +93,7 @@ function NavBAr() {
                                 <a className="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
                                     Portfolio Webapp
                                 </a>
-                                <a className="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                                <a className="navbar-item" href="/extensionproject">
                                     Chrome Extension
                                 </a>
                             </div>
@@ -135,6 +143,9 @@ function NavBAr() {
                 <Route exact path="/linkupproject">
                     <LinkUp/>
                 </Route>
+                <Route exact path="/extensionproject">
+                    <Extension/>
+                </Route>
                 <Route > {/*  in case, no url is working    */}
                     <Error/>
                 </Route>
@@ -157,14 +168,6 @@ function NavBAr() {
                     <a className="link is-info" href="/contact">Contact</a>
                 </p>
             </nav>
-
-
-
-
-
-
-
-
 
         </Router>
     );
