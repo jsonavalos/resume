@@ -14,7 +14,7 @@ import {
     Route,
 } from "react-router-dom";
 
-function NavBAr() {
+function NavigationBar() {
     return (
         <Router>
             <nav className="navbar is-dark">
@@ -172,4 +172,4 @@ function NavBAr() {
         </Router>
     );
 }
-export default NavBAr;
+export default NavigationBar;

@@ -1,21 +1,12 @@
 import React from 'react';
 
 import './App.css';
-import NavBAr from "./components/navigationBar/navBar";
-
-
-
-
-
-
-
-
+import NavigationBar from "./js/NavigationBar";
 function App() {
   return (
     <div className="App">
-            <NavBAr />
+            <NavigationBar />
     </div>
   );
 }
-
 export default App;
