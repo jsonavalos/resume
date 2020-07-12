@@ -31,7 +31,7 @@ function LinkUp() {
 
           <div className="sandbox">
             <div className="tile is-ancestor">
-              <div className="tile is-parent is-shady">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">Django</p>
                   <figure className="image is-4by3">
@@ -39,7 +39,7 @@ function LinkUp() {
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">Javascript</p>
                   <figure className="image is-4by3">
@@ -47,7 +47,7 @@ function LinkUp() {
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">Python</p>
                   <figure className="image is-4by3">
@@ -58,7 +58,7 @@ function LinkUp() {
               </div>
             </div>
             <div className="tile is-ancestor">
-              <div className="tile is-parent is-shady">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">HTML</p>
                   <figure className="image is-4by3">
@@ -66,12 +66,12 @@ function LinkUp() {
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">Bulma</p>
                 </article>
               </div>
-              <div className="tile is-parent is-shady">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">AWS</p>
                 </article>

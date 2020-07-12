@@ -84,34 +84,33 @@ function Extension() {
 
           <div className="sandbox">
             <div className="tile is-ancestor">
-              <div className="tile is-parent is-shady">
-                <article className="tile is-child notification is-white">
-                  <p className="title">Django</p>
-                  <figure className="image is-2">
+              <div className="tile is-parent is-shady is-3">
+                <article className="tile is-child notification is-white ">
+                  <p className="title">Javascript</p>
+                  <figure className="image is-1">
                         <img src={Django}  alt="Django"/>
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady">
+              <div className="tile is-parent is-shady is-3">
                 <article className="tile is-child notification is-white">
-                  <p className="title">Javascript</p>
+                  <p className="title">npm</p>
                   <figure className="image">
                         <img src={Javascript}  alt="Javascript"/>
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady">
+              <div className="tile is-parent is-shady is-3">
                 <article className="tile is-child notification is-white">
-                  <p className="title">Python</p>
+                  <p className="title">GitHub</p>
                   <figure className="image is-4by3">
                         <img src={Python}  alt="Python"/>
                   </figure>
                 </article>
 
               </div>
-            </div>
-            <div className="tile is-ancestor">
-              <div className="tile is-parent is-shady">
+
+              <div className="tile is-parent is-shady is-3">
                 <article className="tile is-child notification is-white">
                   <p className="title">HTML</p>
                   <figure className="image is-4by3">
@@ -119,17 +118,15 @@ function Extension() {
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady">
+
+              <div className="tile is-parent is-shady is-3">
                 <article className="tile is-child notification is-white">
-                  <p className="title">Bulma</p>
+                  <p className="title">Boostrap</p>
                 </article>
               </div>
-              <div className="tile is-parent is-shady">
-                <article className="tile is-child notification is-white">
-                  <p className="title">AWS</p>
-                </article>
-              </div>
+
             </div>
+    
           </div>
         </section>
       </div>
