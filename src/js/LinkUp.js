@@ -25,8 +25,8 @@ function LinkUp() {
           <div className="intro is-5 ">
             <p className="subtitle ">I was the <b>database specialist</b> for the team.However, I spent most of my time, using Javascript,Python,Bulma and  HTML to design the overall look of the application.Moreover, I did the research to implement the database and the documentation for it.</p>
           </div>
-          <div className="intro is-5 ">
-            <a href="http://linkup-env.3yijpwf3qp.us-west-2.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer">To view our website please click here</a>
+          <div className="intro is-size-3">
+            <a href="http://linkup-env.3yijpwf3qp.us-west-2.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer" className="button is-primary">To view our website please click here</a>
           </div>
 
           <div className="sandbox">
@@ -54,10 +54,8 @@ function LinkUp() {
                         <img src={Python}  alt="Python"/>
                   </figure>
                 </article>
-
               </div>
-            </div>
-            <div className="tile is-ancestor">
+
               <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">HTML</p>
@@ -66,6 +64,7 @@ function LinkUp() {
                   </figure>
                 </article>
               </div>
+
               <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">Bulma</p>
@@ -76,7 +75,9 @@ function LinkUp() {
                   <p className="title">AWS</p>
                 </article>
               </div>
+
             </div>
+
           </div>
         </section>
       </div>
