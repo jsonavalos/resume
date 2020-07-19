@@ -7,6 +7,7 @@ import Skills from "./Skills";
 import Error from "./Error"
 import LinkUp from "./LinkUp";
 import Extension from "./Extension";
+import Portfolio from "./Portfolio"
 import logo from "./Jason Avalos.png"
 import {
     BrowserRouter as Router,
@@ -25,9 +26,7 @@ function NavigationBar() {
 
 
                     <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                        <span />
-                        <span />
-                        <span />
+                  
                     </div>
 
 
@@ -90,7 +89,7 @@ function NavigationBar() {
                                 <a className="navbar-item has-text-centered" href="/linkupproject">
                                     LinkUp Webapp
                                 </a>
-                                <a className="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+                                <a className="navbar-item" href="/portfolio">
                                     Portfolio Webapp
                                 </a>
                                 <a className="navbar-item" href="/extensionproject">
@@ -146,6 +145,9 @@ function NavigationBar() {
                 <Route exact path="/extensionproject">
                     <Extension/>
                 </Route>
+                <Route exact path="/portfolio">
+                       <Portfolio/>
+                </Route>
                 <Route > {/*  in case, no url is working    */}
                     <Error/>
                 </Route>
@@ -166,6 +168,18 @@ function NavigationBar() {
                 </p>
                 <p className="level-item has-text-centered">
                     <a className="link is-info" href="/contact">Contact</a>
+                </p>
+            </nav>
+
+            <nav className="level is-size-5">
+                <p className="level-item has-text-centered">
+                    <a className="link is-info" href="/linkupproject">LinkUp Project</a>
+                </p>
+                <p className="level-item has-text-centered">
+                    <a className="link is-info" href="/portfolio">Portfolio Project</a>
+                </p>
+                <p className="level-item has-text-centered">
+                    <a className="link is-info" href="/extensionproject">Extension Project</a>
                 </p>
             </nav>
 
