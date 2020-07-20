@@ -1,6 +1,5 @@
 import React from 'react';
 import './CSSfiles/HomeCSS.css'
-import Typing from 'react-typing-animation';
 
 
 
