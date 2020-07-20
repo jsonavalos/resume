@@ -11,6 +11,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-modal": "^3.11.2",
+    "react-native-responsive-fontsize": "^0.4.3",
     "react-native-unordered-list": "^1.0.2",
     "react-particles-js": "^2.7.1",
     "react-router-dom": "latest",

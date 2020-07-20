@@ -1,5 +1,6 @@
 import React from 'react';
 import './CSSfiles/HomeCSS.css'
+import Typing from 'react-typing-animation';
 
 
 
@@ -23,9 +24,11 @@ function Home() {
                                 <progress className="progress is-small is-primary" max="100">15%</progress>
                             </div>
                             <div className="intro">
-                               
-            <p className="title has-text-white is-family-code" style={{fontSize: '100px' }}>Jason Avalos</p>
-          
+                                <Typing speed={500}>
+            <p className="title has-text-white is-family-code is-size-1" >Jason Avalos</p>
+            </Typing>
+        
+   
                                </div>
 
                 
