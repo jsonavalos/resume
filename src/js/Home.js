@@ -1,6 +1,8 @@
 import React from 'react';
 import './CSSfiles/HomeCSS.css'
-import {Wave} from "react-animated-text";
+import Typing from 'react-typing-animation';
+
+
 
 function Home() {
     return (
@@ -15,15 +17,20 @@ function Home() {
             <section className="hero-body" >
 
                 <div className="hero-body">
-                    <div className="container  is-centered">
+                    <div className="container  is-centered ">
 
                             <br/> <br/>  <br/><br/> <br/>  <br/>
                             <div className="column is-6 is-offset-3 is-centered">
                                 <progress className="progress is-small is-primary" max="100">15%</progress>
                             </div>
-                            <h1 className="title " id="MainPageTitle">
-                                <Wave text="Jason Avalos"  effect="stretch" effectChange={1.10} />
-                            </h1>
+                            <div className="intro">
+                                <Typing speed={500}>
+            <p className="title has-text-white is-family-code" style={{fontSize: '100px' }}>Jason Avalos</p>
+            </Typing>
+                               </div>
+
+                
+
                         <div className="column is-6 is-offset-3 is-centered">
                             <progress className="progress is-small is-primary" max="100">15%</progress>
                         </div>
