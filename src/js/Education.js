@@ -4,8 +4,6 @@ import UCSD from './geisel.jpeg'
 import SWC from './SWC.png'
 import './CSSfiles/HomeCSS.css'
 
-import { Wave } from 'react-animated-text'
-
 
 
 
@@ -111,7 +109,7 @@ function Education() {
                       </div>
                       <div className="column is-6 is-offset-1">
                           <h1 className="title is-2 " id="ucsdTitle">
-                              <Wave text="University of California, San Diego"  effect="stretch" effectChange={1.10} />
+                              University of California, San Diego
                           </h1>
                           <h2 className="subtitle is-4 is-white" id="degrees">
                               B.S. Mathematics - Computer Science
@@ -133,7 +131,7 @@ function Education() {
                       <div className="column is-6 is-offset-1">
                           <h1 className="title is-2">
                               <h1 className="title is-2" id="ucsdTitle">
-                                  <Wave text="Southwestern College"  effect="stretch" effectChange={1.10} />
+                                  Southwestern College
                               </h1>
                           </h1>
 
@@ -175,7 +173,7 @@ function Education() {
 
                   <div className="content">
                       <p className="title is-2 is-spaced">
-                      <Wave text="Computer Science"  effect="stretch" effectChange={1.10} />
+                      COMPUTER SCIENCE SCIENCE
                       </p>
 
                       <ol type="1">
@@ -196,7 +194,7 @@ function Education() {
 
 
                           <p className="title is-2 is-spaced">
-                              <Wave text="Mathematics"  effect="stretch" effectChange={1.10} />
+                             MATHEMATICS
                           </p>
 
 
@@ -211,7 +209,6 @@ function Education() {
                           <li>NUMERICAL LINEAR ALGEBRA I,II,III</li>
                           <li >INTRO TO PROBABILITY</li>
                           <li >COMBINATORICS</li>
-                          <li ></li>
                       </ol>
 
                   </div>
@@ -240,7 +237,7 @@ function Education() {
 
                   <div className="content">
                       <p className="title is-2 is-spaced">
-                          <Wave text="Mathematics"  effect="stretch" effectChange={1.10} />
+                          MATHEMATICS
                       </p>
                       <ol type="1">
                           <li >PRE-CALCULUS WITH TRIGONOMETRY</li>
@@ -255,7 +252,7 @@ function Education() {
                   <hr/>
                   <div className="content">
                       <p className="title is-2 is-spaced">
-                          <Wave text="Computer Science"  effect="stretch" effectChange={1.10} />
+                          COMPUTER SCIENCE
                       </p>
                       <ol type="1">
                           <li >INTRODUCTION TO COMPUTER PROGRAMMING</li>

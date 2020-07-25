@@ -15,9 +15,24 @@ import {
     Route,
 } from "react-router-dom";
 
+function mobileMenu(e) {
+     return(
+        alert('The link was clicked.')
+     )
+}
+
+
 function NavigationBar() {
     return (
+
+
+
         <Router>
+
+
+
+
+            
             <nav className="navbar is-dark">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="/">
@@ -25,8 +40,10 @@ function NavigationBar() {
                     </a>
 
 
-                    <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                  
+                    <div className="navbar-burger burger" data-target="navbarExampleTransparentExample" onClick={mobileMenu}>
+                  <span></span>
+                  <span></span>
+                  <span></span>
                     </div>
 
 
