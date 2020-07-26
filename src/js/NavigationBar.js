@@ -15,11 +15,44 @@ import {
     Route,
 } from "react-router-dom";
 
-function mobileMenu(e) {
-     return(
-        alert('The link was clicked.')
-     )
-}
+
+
+class MobileMenuView extends React.Component {
+    constructor(props) {
+      super(props);
+      this.handleClick = this.handleClick.bind(this);
+      this.state = { active: 0, class: "navbar-burger burger"  };
+    }
+  
+    handleClick(event) {
+      if(this.state.active === 0){
+        this.setState({
+            active: 1,
+            class: "navbar-burger burger is-active"
+          });
+      }
+      else{
+        this.setState({
+            active: 0,
+            class: "navbar-burger burger"
+          });
+      }
+
+    }
+    render() {
+      return (
+        
+        <div className={this.state.class} data-target="navbarExampleTransparentExample" onClick={this.handleClick}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div></div>
+          </div>
+          
+        
+      );
+    }
+  }
 
 
 function NavigationBar() {
@@ -40,11 +73,7 @@ function NavigationBar() {
                     </a>
 
 
-                    <div className="navbar-burger burger" data-target="navbarExampleTransparentExample" onClick={mobileMenu}>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                    </div>
+                         <MobileMenuView/>
 
 
 
@@ -55,7 +84,7 @@ function NavigationBar() {
 
                     <div className="navbar-start">
 
-                        {/* Home Botton */}
+                        {/* Home Button */}
                         <span className="navbar-item">
                     <a className="button is-white is-outlined" href="/">
                       <span className="icon">
@@ -64,7 +93,7 @@ function NavigationBar() {
                       <span>Home</span>
                     </a>
                   </span>
-                        {/* Home Botton  */}
+                        {/* Home Button  */}
 
                         {/* Education */}
                         <span className="navbar-item">

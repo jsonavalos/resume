@@ -273,12 +273,6 @@ function Education() {
           </Dialog>
 
 
-
-
-
-
-
-
       </div>
 ///Users/jsonavalos/app/my-app/src/components/navigationBar
     );
