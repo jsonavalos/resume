@@ -40,31 +40,31 @@ class Bar extends React.Component {
     render() {
         if(this.props.active){
             return (
-            <div>
-                <nav className="level is-size-5">
-                <p className="level-item ">
-                    <a className="link is-info" href="/education">Education</a>
-                </p>
-                <p className="level-item ">
-                    <a className="link is-info" href="/experience">Experience</a>
-                </p>
-                <p className="level-item " >
-                    <a className="link is-info" href="/technicalskills">Technical Skills</a>
-                </p>
-                <p className="level-item ">
-                    <a className="link is-info" href="/contact">Contact</a>
-                </p>
-                <p className="level-item ">
-                    <a className="link is-info" href="/linkupproject">LinkUp Project</a>
-                </p>
-                <p className="level-item ">
-                    <a className="link is-info" href="/portfolio">Portfolio Project</a>
-                </p>
-                <p className="level-item ">
-                    <a className="link is-info" href="/extensionproject">Extension Project</a>
-                </p>
-            </nav>
+            <div style={{position: 'fixed', width: '180%'}}>
 
+                <nav className="level is-size-6">
+                <span className="navbar-item">
+                    <a className="button is-primary" style={{fontSize: "50%"}} href="/education">
+                      <span>Education</span>
+                    </a>
+                  </span>
+                  <span className="navbar-item">
+                    <a className="button is-primary" style={{fontSize: "50%"}} href="/experience">
+                      <span>Experience</span>
+                    </a>
+                  </span>
+                  <span className="navbar-item">
+                    <a className="button is-primary " style={{fontSize: "50%"}} href="/technicalskills">
+                      <span>Technical Skills</span>
+                    </a>
+                  </span>
+
+                  <span className="navbar-item">
+                    <a className="button is-primary" style={{fontSize: "50%"}} href="/contact">
+                      <span>Contact</span>
+                    </a>
+                  </span>    
+          </nav>
       </div>  
       );
     }
