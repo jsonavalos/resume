@@ -40,30 +40,34 @@ class Bar extends React.Component {
     render() {
         if(this.props.active){
             return (
-            <div style={{position: 'fixed', width: '180%'}}>
+            <div style={{position: 'fixed', right: '0%'}}>
 
                 <nav className="level is-size-6">
                 <span className="navbar-item">
-                    <a className="button is-primary" style={{fontSize: "50%"}} href="/education">
+                    <a className="button is-primary" style={{fontSize: "75%"}} href="/education">
                       <span>Education</span>
                     </a>
                   </span>
                   <span className="navbar-item">
-                    <a className="button is-primary" style={{fontSize: "50%"}} href="/experience">
+                    <a className="button is-primary" style={{fontSize: "75%"}} href="/experience">
                       <span>Experience</span>
                     </a>
                   </span>
                   <span className="navbar-item">
-                    <a className="button is-primary " style={{fontSize: "50%"}} href="/technicalskills">
+                    <a className="button is-primary " style={{fontSize: "75%"}} href="/technicalskills">
                       <span>Technical Skills</span>
                     </a>
                   </span>
 
                   <span className="navbar-item">
-                    <a className="button is-primary" style={{fontSize: "50%"}} href="/contact">
+                    <a className="button is-primary" style={{fontSize: "75%"}} href="/contact">
                       <span>Contact</span>
                     </a>
-                  </span>    
+                  </span>   
+
+
+      
+
           </nav>
       </div>  
       );
