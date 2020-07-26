@@ -123,7 +123,7 @@ class MobileMenuView extends React.Component {
 function NavigationBar() {
     return (
         <Router>            
-            <nav className="navbar is-dark">
+            <nav className="navbar is-dark" style={{position: 'fixed'}}>
                    <MobileMenuView />
                 <div id="navbarExampleTransparentExample" className="navbar-menu">
 
@@ -192,10 +192,9 @@ function NavigationBar() {
                     <div className="navbar-end">
 
 
-
                             {/* Contact */}
                             <span className="navbar-item">
-                    <a className="button is-white is-outlined" href="/contact">
+                    <a className="button is-white is-outline ml-auto" href="/contact">
                         <span className="icon">
                         <i className="fa fa-phone" />
                       </span>
