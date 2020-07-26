@@ -16,8 +16,7 @@ import {
 } from "react-router-dom";
 
 
-
-class MobileMenuView extends React.Component {
+class Bar extends React.Component {
     constructor(props) {
       super(props);
       this.handleClick = this.handleClick.bind(this);
@@ -37,19 +36,85 @@ class MobileMenuView extends React.Component {
             class: "navbar-burger burger"
           });
       }
+    }
+    render() {
+        if(this.props.active){
+            return (
+            <div>
+                <nav className="level is-size-5">
+                <p className="level-item ">
+                    <a className="link is-info" href="/education">Education</a>
+                </p>
+                <p className="level-item ">
+                    <a className="link is-info" href="/experience">Experience</a>
+                </p>
+                <p className="level-item " >
+                    <a className="link is-info" href="/technicalskills">Technical Skills</a>
+                </p>
+                <p className="level-item ">
+                    <a className="link is-info" href="/contact">Contact</a>
+                </p>
+                <p className="level-item ">
+                    <a className="link is-info" href="/linkupproject">LinkUp Project</a>
+                </p>
+                <p className="level-item ">
+                    <a className="link is-info" href="/portfolio">Portfolio Project</a>
+                </p>
+                <p className="level-item ">
+                    <a className="link is-info" href="/extensionproject">Extension Project</a>
+                </p>
+            </nav>
+
+      </div>  
+      );
+    }
+    else{
+        return null;
+    }
+    }
+  }
+
+
+
+
+class MobileMenuView extends React.Component {
+    constructor(props) {
+      super(props);
+      this.handleClick = this.handleClick.bind(this);
+      this.state = { isActive: false, class: "navbar-burger burger"  };
+    }
+  
+    handleClick(event) {
+      if(this.state.isActive === false){
+        this.setState({
+            isActive: true,
+            class: "navbar-burger burger is-active"
+          });
+      }
+      else{
+        this.setState({
+            isActive: false,
+            class: "navbar-burger burger"
+          });
+      }
 
     }
     render() {
       return (
-        
-        <div className={this.state.class} data-target="navbarExampleTransparentExample" onClick={this.handleClick}>
-        <span></span>
-        <span></span>
-        <span></span>
-        <div></div>
+          <div>
+          <div className="navbar-brand">
+          <a className="navbar-item" href="/">
+              <img src={logo}  width={200} height={170} alt="logo"/>
+          </a>
+          <div className={this.state.class} data-target="navbarExampleTransparentExample" onClick={this.handleClick}>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div></div>
           </div>
-          
-        
+      </div>  
+      <Bar active={this.state.isActive}/>
+      </div>
       );
     }
   }
@@ -57,29 +122,9 @@ class MobileMenuView extends React.Component {
 
 function NavigationBar() {
     return (
-
-
-
-        <Router>
-
-
-
-
-            
+        <Router>            
             <nav className="navbar is-dark">
-                <div className="navbar-brand">
-                    <a className="navbar-item" href="/">
-                        <img src={logo}  width={200} height={170} alt="logo"/>
-                    </a>
-
-
-                         <MobileMenuView/>
-
-
-
-
-                    
-                </div>
+                   <MobileMenuView />
                 <div id="navbarExampleTransparentExample" className="navbar-menu">
 
                     <div className="navbar-start">
@@ -198,36 +243,6 @@ function NavigationBar() {
                     <Error/>
                 </Route>
             </Switch>
-
-            <nav className="level is-size-5">
-                <p className="level-item has-text-centered">
-                    <a className="link is-info" href="/education">Education</a>
-                </p>
-                <p className="level-item has-text-centered">
-                    <a className="link is-info" href="/experience">Experience</a>
-                </p>
-                <p className="level-item has-text-centered" href="/">
-                    <img src={logo}  alt="" style={{height: '30px'}}/>
-                </p>
-                <p className="level-item has-text-centered" >
-                    <a className="link is-info" href="/technicalskills">Technical Skills</a>
-                </p>
-                <p className="level-item has-text-centered">
-                    <a className="link is-info" href="/contact">Contact</a>
-                </p>
-            </nav>
-
-            <nav className="level is-size-5">
-                <p className="level-item has-text-centered">
-                    <a className="link is-info" href="/linkupproject">LinkUp Project</a>
-                </p>
-                <p className="level-item has-text-centered">
-                    <a className="link is-info" href="/portfolio">Portfolio Project</a>
-                </p>
-                <p className="level-item has-text-centered">
-                    <a className="link is-info" href="/extensionproject">Extension Project</a>
-                </p>
-            </nav>
 
         </Router>
     );
