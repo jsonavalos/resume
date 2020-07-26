@@ -24,7 +24,7 @@ function Home() {
                                 <progress className="progress is-small is-primary" max="100">15%</progress>
                             </div>
                             <div className="intro">
-                                <Typing speed={500}>
+                                <Typing speed={200}>
             <p className="title has-text-white is-family-code is-size-1" >Jason Avalos</p>
             </Typing>
         

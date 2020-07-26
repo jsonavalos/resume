@@ -65,6 +65,16 @@ class Bar extends React.Component {
                     </a>
                   </span>   
 
+                  <div className="select is-primary has-text-centered" style={{fontSize: "75%"}}>
+                  <select onSelect="alert('chrome was selected');return false">
+                  <option href="/">Projects</option>
+                <option >Chrome Extension</option>
+                <option>LinkUp Web APP</option>
+                <option>Portfolio Web APP</option>
+
+                 </select>
+</div>
+
 
       
 
