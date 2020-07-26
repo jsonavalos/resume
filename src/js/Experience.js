@@ -6,6 +6,8 @@ import DESK from './office.jpg'
 function Experience() {
     return (
         <div id="experience">
+            <br></br>
+            <br></br>
             <section className="hero is-info is-small is-bold">
                 <div className="hero-body has-background-grey">
                     <div className="container has-text-left">

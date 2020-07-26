@@ -17,6 +17,7 @@ function Skills() {
         <div>
 
             <div className="container is-fluid" id="content">
+                <br></br>
                 <section data-section-id={1} data-component-id="29e6_7_02_awz" data-category="team" className="section">
                     <div className="container has-text-centered">
                         <h2 className="title" data-config-id="header">Programming Languages</h2> <br/>
