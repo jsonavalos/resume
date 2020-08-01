@@ -2,8 +2,6 @@ import React from 'react';
 
 import JAVA from './java.png'
 import PYTHON from './imagesSkills/python.png'
-
-import SIGN from './pelican.png'
 import DJANGO from './Django.png'
 import CPLUSPLUS from './imagesSkills/cplusplus.png'
 import HTML from './imagesSkills/html.png'
@@ -12,10 +10,19 @@ import R from './imagesSkills/R.png'
 import CSS from './imagesSkills/css.png'
 import ASSEMBLY from './imagesSkills/assembly.png'
 import C from './imagesSkills/C.png'
+import TYPESCRIPT from './imagesSkills/typescript.png'
+import VISUAL from './imagesSkills/visual.png'
+import PYCHARM from './imagesSkills/pycharm.png'
+import WEBSTORM from './imagesSkills/webstorm.png'
+import MATHLAB from './imagesSkills/mathlab.png'
+import LINUX from './imagesSkills/linux.png'
+import GITHUB from './imagesSkills/github.png'
+import REACT from './imagesSkills/react.png'
+
+
 function Skills() {
     return (
         <div>
-
             <div className="container is-fluid" id="content">
                 <br></br>
                 <section data-section-id={1} data-component-id="29e6_7_02_awz" data-category="team" className="section">
@@ -89,6 +96,16 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
+                                        <figure className="image is-96x96"><img className="" src={TYPESCRIPT} alt="" /></figure>
+                                    </div>
+                                </div>
+                                <h5 className="title is-5">Typescript</h5>
+                                <p className="subtitle is-size-7">100%</p>
+                            </div>
+
+                            <div className="column is-3">
+                                <div className="level">
+                                    <div className="level-item">
                                         <figure className="image is-96x96"><img className="" src={R} alt="" /></figure>
                                     </div>
                                 </div>
@@ -141,7 +158,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={CPLUSPLUS} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src={REACT} alt="" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">React</h5>
@@ -150,16 +167,16 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={PYTHON} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src={VISUAL} alt="" /></figure>
                                     </div>
                                 </div>
-                                <h5 className="title is-5">Virtual Studio</h5>
+                                <h5 className="title is-5">Visual Studio Code</h5>
                                 <p className="subtitle is-size-7">100%</p>
                             </div>
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={PYTHON} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src={PYCHARM} alt="" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Pycharm</h5>
@@ -168,7 +185,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src="placeholder/pictures/bg_circle.svg?primary=00d1b2" alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src={WEBSTORM} alt="" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Webstorm</h5>
@@ -177,7 +194,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={PYTHON} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src={R} alt="" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Rstudio</h5>
@@ -187,26 +204,32 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={SIGN} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src={MATHLAB} alt="" /></figure>
                                     </div>
                                 </div>
-                                <h5 className="title is-5">Matlab</h5>
+                                <h5 className="title is-5">Mathlab</h5>
                                 <p className="subtitle is-size-7">100%</p>
                             </div>
 
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={SIGN} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src={LINUX} alt="" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Linux</h5>
                                 <p className="subtitle is-size-7">100%</p>
                             </div>
 
-
-
-
+                            <div className="column is-3">
+                                <div className="level">
+                                    <div className="level-item">
+                                        <figure className="image is-128x128"><img className="is-rounded" src={GITHUB} alt="" /></figure>
+                                    </div>
+                                </div>
+                                <h5 className="title is-5">Github</h5>
+                                <p className="subtitle is-size-7">100%</p>
+                            </div>
 
 
 
