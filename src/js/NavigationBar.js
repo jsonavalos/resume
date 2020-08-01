@@ -15,80 +15,116 @@ import {
     Route,
 } from "react-router-dom";
 
+class SelectOption extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleChange = this.handleChange.bind(this);
+    this.state = { active: 0, class: "navbar-burger burger"  };
+  }
+
+  handleChange(event) {
+    switch(event.target.value){
+        case '1':
+          window.location.href = "/extensionproject";
+          break;
+        case '2':
+          window.location.href = '/linkupproject';
+          break;
+        case '3':
+          window.location.href = "/portfolio";
+          break;
+        default:
+          break;
+    }
+  }
+  render() {
+      return(
+<div className="select is-primary has-text-centered" style={{fontSize: "75%"}}>
+                <select onChange={this.handleChange}>
+                <option value='0' >Projects</option>
+                <option value='1' >Chrome Extension</option>
+                <option value='2'>LinkUp Web APP</option>
+                <option value='3'>Portfolio Web APP</option>
+               </select>
+              </div>
+
+
+
+
+
+      )
+  }
+
+}
 
 class Bar extends React.Component {
-    constructor(props) {
-      super(props);
-      this.handleClick = this.handleClick.bind(this);
-      this.state = { active: 0, class: "navbar-burger burger"  };
-    }
-  
-    handleClick(event) {
-      if(this.state.active === 0){
-        this.setState({
-            active: 1,
-            class: "navbar-burger burger is-active"
-          });
-      }
-      else{
-        this.setState({
-            active: 0,
-            class: "navbar-burger burger"
-          });
-      }
-    }
-    render() {
-        if(this.props.active){
-            return (
-            <div style={{position: 'fixed', right: '0%'}}>
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+    this.state = { active: 0, class: "navbar-burger burger"  };
+  }
 
-                <nav className="level is-size-6">
-                <span className="navbar-item">
-                    <a className="button is-primary" style={{fontSize: "75%"}} href="/education">
-                      <span>Education</span>
-                    </a>
-                  </span>
-                  <span className="navbar-item">
-                    <a className="button is-primary" style={{fontSize: "75%"}} href="/experience">
-                      <span>Experience</span>
-                    </a>
-                  </span>
-                  <span className="navbar-item">
-                    <a className="button is-primary " style={{fontSize: "75%"}} href="/technicalskills">
-                      <span>Technical Skills</span>
-                    </a>
-                  </span>
-
-                  <span className="navbar-item">
-                    <a className="button is-primary" style={{fontSize: "75%"}} href="/contact">
-                      <span>Contact</span>
-                    </a>
-                  </span>   
-
-                  <div className="select is-primary has-text-centered" style={{fontSize: "75%"}}>
-                  <select onSelect="alert('chrome was selected');return false">
-                  <option href="/">Projects</option>
-                <option >Chrome Extension</option>
-                <option>LinkUp Web APP</option>
-                <option>Portfolio Web APP</option>
-
-                 </select>
-</div>
-
-
-      
-
-          </nav>
-      </div>  
-      );
+  handleClick(event) {
+    if(this.state.active === 0){
+      this.setState({
+          active: 1,
+          class: "navbar-burger burger is-active"
+        });
     }
     else{
-        return null;
-    }
+      this.setState({
+          active: 0,
+          class: "navbar-burger burger"
+        });
     }
   }
 
 
+  render() {
+      if(this.props.active){
+          return (
+          <div style={{position: 'fixed', right: '0%'}}>
+
+              <nav className="level is-size-6">
+              <span className="navbar-item">
+                  <a className="button is-primary" style={{fontSize: "75%"}} href="/education">
+                    <span>Education</span>
+                  </a>
+                </span>
+                <span className="navbar-item">
+                  <a className="button is-primary" style={{fontSize: "75%"}} href="/experience">
+                    <span>Experience</span>
+                  </a>
+                </span>
+                <span className="navbar-item">
+                  <a className="button is-primary " style={{fontSize: "75%"}} href="/technicalskills">
+                    <span>Technical Skills</span>
+                  </a>
+                </span>
+
+                <span className="navbar-item">
+                  <a className="button is-primary" style={{fontSize: "75%"}} href="/contact">
+                    <span>Contact</span>
+                  </a>
+                </span>   
+
+
+              <SelectOption/>
+
+
+
+
+    
+
+        </nav>
+    </div>  
+    );
+  }
+  else{
+      return null;
+  }
+  }
+}
 
 
 class MobileMenuView extends React.Component {
