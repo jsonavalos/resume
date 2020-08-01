@@ -1,14 +1,26 @@
 import React from 'react';
 import './CSSfiles/HomeCSS.css'
 
-function Contact() {
+class Contact extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = { active: 0, class: "navbar-burger burger"  };
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.nameRef = React.createRef();
+        this.emailRef = React.createRef();
+        this.messageRef = React.createRef();
+      }
+
+
+      handleSubmit(event){
+        alert('name: ' + this.nameRef.current.value + '\nemail: '+this.emailRef.current.value + '\nmessage: '+this.messageRef.current.value);
+      }
+
+    render(){
     return (
+
         <div id="contactimage">
-
-
-
-
-
             <section className="hero is-fullheight ">
                 <div className="hero-body">
                     <div className="container has-text-centered">
@@ -29,43 +41,33 @@ function Contact() {
                                 <div className="field">
                                     <label className="label">Name</label>
                                     <div className="control">
-                                        <input className="input is-medium" type="text" />
+                                        <input className="input is-medium" type="text" ref={this.nameRef} />
                                     </div>
                                 </div>
                                 <div className="field">
                                     <label className="label">Email</label>
                                     <div className="control">
-                                        <input className="input is-medium" type="text" />
+                                        <input className="input is-medium" type="text" ref={this.emailRef}/>
                                     </div>
                                 </div>
                                 <div className="field">
                                     <label className="label">Message</label>
                                     <div className="control">
-                                        <textarea className="textarea is-medium" defaultValue={""} />
+                                        <textarea className="textarea is-medium" defaultValue={""} ref={this.messageRef} />
                                     </div>
                                 </div>
                                 <div className="control">
-                                    <button type="submit" className="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
+                                    <button type="submit" className="button is-link is-fullwidth has-text-weight-medium is-medium" onClick={this.handleSubmit}>Send Message</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
 ///Users/jsonavalos/app/my-app/src/components/navigationBar
     );
+    }
 }
+
 export default Contact;
