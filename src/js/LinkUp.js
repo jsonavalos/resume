@@ -3,31 +3,35 @@ import Django from './Django.png'
 import Javascript from './imagesSkills/javascript.png'
 import Python from './imagesSkills/python.png'
 import HTML from './imagesSkills/html.png'
+
 function LinkUp() {
     return (
         <div>
-        <section className="hero is-info is-medium is-bold">
+        <section className="hero is-light is-medium is-bold">
           <div className="hero-body">
-            <div className="container has-text-centered">
+            <div className="container has-text-centered ">
               <h1 className="title has-text-black">
-                LinkUp Web Application
+                LINKUP 
               </h1>
-              <h2 className="subtitle">
+              <h3 className="subtitle has-text-black">
+                Web Application
+              </h3>
+              <h2 className="subtitle is-family-code">
                 An application used to schedule meetings among a large number of individuals that cannot manually decide on a date and time due to group size.
               </h2>
             </div>
           </div>
         </section>  
         <section className="container">
-          <div className="intro column is-5 ">
-            <p className="title has-text-success">Development Process</p>
+          <div className="intro column is-5 has-text-left">
+            <p className="title has-text-success is-family-code">Development Process</p>
           </div>
-          <div className="intro is-5 has-text-left">
+          <div className="intro is-5 has-text-left is-family-code">
             <p className="subtitle ">I was the <b>database specialist</b> for the team.However, I spent most of my time, using Javascript,Python,Bulma and  HTML to design the overall look of the application.Moreover, I did the research to implement the database and the documentation for it.</p>
           </div>
           <br></br>
-          <div className="intro is-size-3 ">
-            <a href="http://linkup-env.3yijpwf3qp.us-west-2.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer" className="button is-primary has-text-danger">To view our website please click here</a>
+          <div className="intro is-size-4 is-family-code">
+            <a href="http://linkup-env.3yijpwf3qp.us-west-2.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer" >To view our website please click here</a>
           </div>
 
           <div className="sandbox">

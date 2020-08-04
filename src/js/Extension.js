@@ -13,14 +13,18 @@ function Extension() {
     return (
         <div>
 
-        <section className="hero is-info is-medium is-bold">
+        <section className="hero is-light is-medium is-bold">
           <div className="hero-body">
             <div className="container has-text-centered">
-              <h1 className="title has-text-black">
-                Velocity Raptor Chrome Extension 
+        
 
+              <h1 className="title has-text-black">
+                Velocity Raptor
               </h1>
-              <h2 className="subtitle">
+              <h3 className="subtitle has-text-black">
+              Chrome Extension
+              </h3>
+              <h2 className="subtitle is-family-code">
                 <p>An extension intended for software engineers to keep track of velocity in a agile team</p>
 
               </h2>
@@ -72,14 +76,14 @@ function Extension() {
 
 
         <section className="container">
-          <div className="intro column is-5 ">
-            <p className="title has-text-success">Development Process</p>
+          <div className="intro column is-5 has-text-left ">
+            <p className="title has-text-success is-family-code">Development Process</p>
           </div>
-          <div className="intro is-5 ">
-            <p className="subtitle ">I was the <b>database specialist</b> for the team.However, I spent most of my time, using Javascript,Python,Bulma and  HTML to design the overall look of the application.Moreover, I did the research to implement the database and the documentation for it.</p>
+          <div className="intro is-5 has-text-left">
+            <p className="subtitle is-family-code">I was the <b>coder</b> for the team.I used Javascript,Python,Bootstrap and  HTML to design the overall look of the chrome extension.Moreover, I designed the logic to dress the raptor with artifacts according to the user's velocity. <i>This project was not publised to the Chrome Web Store.</i></p>
           </div>
-          <div className="intro is-5 ">
-            <a href="http://linkup-env.3yijpwf3qp.us-west-2.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer">To view our website please click here</a>
+          <div className="intro is-5 is-family-code ">
+            <a href="https://github.com/cse112-sp20/CalamariCrew" target="_blank" rel="noopener noreferrer">To view the project on Github, please click here</a>
           </div>
 
           <div className="sandbox">

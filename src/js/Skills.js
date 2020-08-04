@@ -27,7 +27,7 @@ function Skills() {
                 <br></br>
                 <section data-section-id={1} data-component-id="29e6_7_02_awz" data-category="team" className="section">
                     <div className="container has-text-centered">
-                        <h2 className="title" data-config-id="header">Programming Languages</h2> <br/>
+                        <h2 className="title is-family-code" data-config-id="header">Programming Languages</h2> <br/>
                         <p className="subtitle" data-config-id="description"></p>
                         <div className="columns is-centered is-multiline" data-config-id="team_02">
                             <div className="column is-3">
@@ -142,8 +142,8 @@ function Skills() {
 
                 <section data-section-id={1} data-component-id="29e6_7_02_awz" data-category="team" className="section">
                     <div className="container has-text-centered">
-                        <h2 className="title" data-config-id="header">Tools</h2>
-                        <p className="subtitle" data-config-id="description">We are the guys that made this whole thing possible</p>
+                        <h2 className="title is-family-code" data-config-id="header">Tools</h2>
+                        
                         <div className="columns is-centered is-multiline" data-config-id="team_02">
                             <div className="column is-3">
                                 <div className="level">

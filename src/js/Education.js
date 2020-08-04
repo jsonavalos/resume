@@ -172,11 +172,11 @@ function Education() {
 
 
                   <div className="content">
-                      <p className="title is-2 is-spaced">
-                      COMPUTER SCIENCE SCIENCE
+                      <p className="title is-2  is-family-code">
+                      COMPUTER SCIENCE
                       </p>
 
-                      <ol type="1">
+                      <ol type="1" className="has-text-left is-family-code">
                           <li >THEORY OF COMPUTABILITY</li>
                           <li >COMPUTER IMPLEMENTATIONS OF DATA STRUCTURES</li>
                           <li >DESIGN AND ANALYSIS OF ALGORITHMS</li>
@@ -193,13 +193,13 @@ function Education() {
 
 
 
-                          <p className="title is-2 is-spaced">
+                          <p className="title is-2 is-family-code">
                              MATHEMATICS
                           </p>
 
 
 
-                      <ol type="1">
+                      <ol type="1" className="has-text-left is-family-code">
                           <li>INTRODUCTION TO CRYPTOGRAPHY</li>
                           <li>THE MATHEMATICS OF MODERN CRYPTOGRAPHY</li>
                           <li>INTRO TO COMPUTATIONAL STATISTICS</li>
@@ -236,10 +236,10 @@ function Education() {
               <DialogContent dividers>
 
                   <div className="content">
-                      <p className="title is-2 is-spaced">
+                      <p className="title is-2 is-family-code">
                           MATHEMATICS
                       </p>
-                      <ol type="1">
+                      <ol type="1" className="has-text-left is-family-code">
                           <li >PRE-CALCULUS WITH TRIGONOMETRY</li>
                           <li >ELEMENTARY STATISTICS</li>
                           <li >ANALYTIC GEOMETRY AND CALCULUS I,II,III</li>
@@ -251,10 +251,10 @@ function Education() {
                   </div>
                   <hr/>
                   <div className="content">
-                      <p className="title is-2 is-spaced">
+                      <p className="title is-2 is-family-code">
                           COMPUTER SCIENCE
                       </p>
-                      <ol type="1">
+                      <ol type="1" className="has-text-left is-family-code">
                           <li >INTRODUCTION TO COMPUTER PROGRAMMING</li>
                           <li >DATA STRUCTURES AND ALGORITHMS</li>
                           <li >COMPUTER ORGANIZATION AND ARCHITECTURE</li>

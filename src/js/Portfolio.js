@@ -9,10 +9,15 @@ function Portfolio() {
         <section className="hero is-info is-medium is-bold">
           <div className="hero-body">
             <div className="container has-text-centered">
-              <h1 className="title has-text-black is-size-1">
-                Portfolio Webapp
+              
+              <h1 className="title has-text-black">
+                PORTFOLIO
               </h1>
-              <h2 className="subtitle">
+              <h3 className="subtitle has-text-black">
+                Web Application
+              </h3>
+
+              <h2 className="subtitle is-family-code">
                 A web application that I created for people to have a visual of my work,education and experience.
               </h2>
             </div>
@@ -20,10 +25,10 @@ function Portfolio() {
         </section>  
         <section className="container">
           <div className="intro column is-5 has-text-left ">
-            <p className="title has-text-success">Development Process</p>
+            <p className="title has-text-success is-family-code">Development Process</p>
           </div>
           <div className="intro is-5 has-text-left">
-            <p className="subtitle ">I created this website using React to practice with the framework and learn JSX. I'm keep on improving this website because I just realized that it has some issues with mobile devices that I've been trying to fix.</p>
+            <p className="subtitle is-family-code ">I created this website using React to practice with the framework and learn JSX. I'm keep on improving this website because I just realized that it has some issues with mobile devices that I've been trying to fix.</p>
           </div>
      
 
