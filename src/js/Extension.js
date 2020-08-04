@@ -80,7 +80,7 @@ function Extension() {
             <p className="title has-text-success is-family-code">Development Process</p>
           </div>
           <div className="intro is-5 has-text-left">
-            <p className="subtitle is-family-code">I was the <b>coder</b> for the team.I used Javascript,Python,Bootstrap and  HTML to design the overall look of the chrome extension.Moreover, I designed the logic to dress the raptor with artifacts according to the user's velocity. <i>This project was not publised to the Chrome Web Store.</i></p>
+            <p className="subtitle is-family-code">I was the <b>coder</b> for the team.I used Javascript,Python,Bootstrap and  HTML to design the overall look of the chrome extension.Moreover, I designed the logic to dress the raptor with artifacts according to the user's velocity. <i>This project was not published to the Chrome Web Store.</i></p>
           </div>
           <div className="intro is-5 is-family-code ">
             <a href="https://github.com/cse112-sp20/CalamariCrew" target="_blank" rel="noopener noreferrer">To view the project on Github, please click here</a>
