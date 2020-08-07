@@ -1,8 +1,12 @@
 import React from 'react';
-import Django from './Django.png'
-import Javascript from './imagesSkills/javascript.png'
-import Python from './imagesSkills/python.png'
 import HTML from './imagesSkills/html.png'
+import REACT from './imagesSkills/react.png'
+import JSX from './imagesSkills/jsx.png'
+import NPM from './imagesSkills/npm.png'
+import BULMA from './imagesSkills/bulma-banner.png'
+import NETLIFY from './imagesSkills/netlify-logo.png'
+
+
 function Portfolio() {
     return (
         <div>
@@ -34,32 +38,32 @@ function Portfolio() {
 
           <div className="sandbox ">
             <div className="tile is-ancestor">
-              <div className="tile is-parent is-shady is-3">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">React</p>
                   <figure className="image is-4by3">
-                        <img src={Django}  alt="Django"/>
+                        <img src={REACT}  alt="React"/>
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady is-3">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">JSX</p>
                   <figure className="image is-4by3">
-                        <img src={Javascript}  alt="Javascript"/>
+                        <img src={JSX}  alt="Javascript"/>
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady is-3">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">npm</p>
                   <figure className="image is-4by3">
-                        <img src={Python}  alt="Python"/>
+                        <img src={NPM}  alt="Python"/>
                   </figure>
                 </article>
               </div>
 
-              <div className="tile is-parent is-shady is-3">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">HTML</p>
                   <figure className="image is-4by3">
@@ -68,38 +72,28 @@ function Portfolio() {
                 </article>
               </div>
 
- 
-
-            </div>
-            <div className="tile is-ancestor">
-            <div className="tile is-parent is-shady ">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">Bulma</p>
                   <figure className="image is-4by3">
-                        <img src={HTML}  alt="HTML"/>
+                        <img src={BULMA}  alt="HTML"/>
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady">
+ 
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">Netlify</p>
                   <figure className="image is-4by3">
-                        <img src={HTML}  alt="HTML"/>
-                  </figure>
-                </article>
-              </div>
-
-            <div className="tile is-parent is-shady ">
-                <article className="tile is-child notification is-white">
-                  <p className="title">HTML</p>
-                  <figure className="image is-4by3">
-                        <img src={HTML}  alt="HTML"/>
+                        <img src={NETLIFY}  alt="HTML"/>
                   </figure>
                 </article>
               </div>
 
 
             </div>
+
+    
 
 
 

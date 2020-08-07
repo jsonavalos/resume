@@ -3,6 +3,8 @@ import Django from './Django.png'
 import Javascript from './imagesSkills/javascript.png'
 import Python from './imagesSkills/python.png'
 import HTML from './imagesSkills/html.png'
+import BULMA from './imagesSkills/bulma-banner.png'
+import AWS from './imagesSkills/aws.png'
 
 function LinkUp() {
     return (
@@ -46,7 +48,7 @@ function LinkUp() {
               </div>
               <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
-                  <p className="title">Javascript</p>
+                  <p className="title" style={{wordBreak: 'keep-all'}}>Javascript</p>
                   <figure className="image is-4by3">
                         <img src={Javascript}  alt="Javascript"/>
                   </figure>
@@ -73,11 +75,17 @@ function LinkUp() {
               <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">Bulma</p>
+                  <figure className="image is-4by3">
+                        <img src={BULMA}  alt="HTML"/>
+                  </figure>
                 </article>
               </div>
               <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">AWS</p>
+                  <figure className="image is-4by3">
+                        <img src={AWS}  alt="HTML"/>
+                  </figure>
                 </article>
               </div>
 

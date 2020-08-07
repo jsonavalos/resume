@@ -1,17 +1,18 @@
 import React from 'react';
-import Django from './Django.png'
 import Javascript from './imagesSkills/javascript.png'
-import Python from './imagesSkills/python.png'
 import HTML from './imagesSkills/html.png'
 import linktogithub from './Extensions_images/linktogithub.png'
 import name from './Extensions_images/name.png'
 import settings from './Extensions_images/settings.png'
 import video1 from './Extensions_images/video1.mov'
 import video2 from './Extensions_images/video2.mov'
-
+import NPM from './imagesSkills/npm.png'
+import BOOSTRAP from './imagesSkills/boostrap.png'
+import JEST from './imagesSkills/jest.png'
+import GITHUB from './imagesSkills/github-mark.png'
 function Extension() {
     return (
-        <div>
+        <div className="has-text-centered">
 
         <section className="hero is-light is-medium is-bold">
           <div className="hero-body">
@@ -88,33 +89,33 @@ function Extension() {
 
           <div className="sandbox">
             <div className="tile is-ancestor">
-              <div className="tile is-parent is-shady is-3">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white ">
-                  <p className="title">Javascript</p>
+                  <p className="title" style={{wordBreak: 'keep-all'}}>Javascript</p>
                   <figure className="image is-1">
-                        <img src={Django}  alt="Django"/>
+                        <img src={Javascript}  alt="Django"/>
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady is-3">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">npm</p>
                   <figure className="image">
-                        <img src={Javascript}  alt="Javascript"/>
+                        <img src={NPM}  alt="Javascript"/>
                   </figure>
                 </article>
               </div>
-              <div className="tile is-parent is-shady is-3">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">GitHub</p>
                   <figure className="image is-4by3">
-                        <img src={Python}  alt="Python"/>
+                        <img src={GITHUB}  alt="Python"/>
                   </figure>
                 </article>
 
               </div>
 
-              <div className="tile is-parent is-shady is-3">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
                   <p className="title">HTML</p>
                   <figure className="image is-4by3">
@@ -123,9 +124,22 @@ function Extension() {
                 </article>
               </div>
 
-              <div className="tile is-parent is-shady is-3">
+              <div className="tile is-parent is-shady is-2">
                 <article className="tile is-child notification is-white">
-                  <p className="title">Boostrap</p>
+                  <p className="title" style={{wordBreak: 'keep-all'}}>Boostrap</p>
+                  <figure className="image is-4by3">
+                        <img src={BOOSTRAP}  alt="HTML"/>
+                  </figure>
+                </article>
+              </div>
+
+
+              <div className="tile is-parent is-shady is-2">
+                <article className="tile is-child notification is-white">
+                  <p className="title" >Jest</p>
+                  <figure className="image is-4by3">
+                        <img src={JEST}  alt="HTML"/>
+                  </figure>
                 </article>
               </div>
 

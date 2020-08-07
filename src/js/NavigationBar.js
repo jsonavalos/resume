@@ -258,7 +258,6 @@ function NavigationBar() {
                 </div>
             </nav>
 
-
             <Switch>
                 <Route exact path="/education">
                        <Education/>
