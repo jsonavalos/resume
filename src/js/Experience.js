@@ -50,11 +50,10 @@ function Experience() {
                                     <div className="card-content has-text-left is-family-code">
                                         <div className="content is-8">
                                             <ul>
-                                                <li>Provide general administrative support to the CASP office and its staff</li>
-                                                <li>General clerical duties</li>
-                                                <li>Checking in students</li>
-                                                <li>Helping create and update CASP publications</li>
-                                                <li>Light office clean-up and ordering</li>
+                                            <li>Coordinate a summer transition program for 400+ incoming students via Zoom.</li>
+<li>Oversee intern supervisors training for intern CASP students.</li>
+<li>Find innovative ideas to ensure student engagement using online tools.</li> 
+
 
                                             </ul>
                                         </div>
@@ -98,12 +97,10 @@ function Experience() {
                                         <div className="card-content has-text-left is-family-code">
                                             <div className="content is-8">
                                                 <ul>
-                                                    <li>Prepare and organize program supplies and materials.</li>
-                                                    <li>Co-lead a group of approximately 10-12 retreat participants to ensure their active learning, well-being, enjoyment and safety.</li>
-                                                    <li>Serve as a positive role model and UCSD representative including language, appearance, and manner.</li>
-                                                    <li>Facilitate ice breakers, team builders, discussions, and activities related to leadership and diversity.</li>
-                                                    <li>Maintain and enforce program rules and UCSD policy and procedures.</li>
-                                                    <li>Assist with program and learning outcome assessment.</li>
+                                                    <li>Facilitate seminar sessions with 20+ students.</li>
+                                                    <li>Co-facilitate OLC seminars with a CASP professional staff member.</li>
+                                                    <li>Help to plan weekly seminars and gather resources for students.</li>
+                                                    <li>Maintain consistent communication with seminar students</li>
                                                 </ul>
                                             </div>
                                         </div>
