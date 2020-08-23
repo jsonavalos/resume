@@ -30,12 +30,19 @@ function Home() {
                                </div>
                         <div className="column is-6 is-offset-3 is-centered">
                             <progress className="progress is-small is-primary" max="100">15%</progress>
+
+                            
+    <a class="button " href="./JasonAvalosResume.pdf" download>
+      <span class="icon is-small">
+        <i class="fa fa-download"></i>
+      </span>
+      <span className="is-family-code">Jason's Resume</span>
+    </a>
+
                         </div>
 
-
-
-
                     </div>
+
                 </div>
 
 

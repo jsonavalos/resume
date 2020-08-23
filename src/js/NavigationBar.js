@@ -47,11 +47,6 @@ class SelectOption extends React.Component {
                 <option value='3'>Portfolio Web APP</option>
                </select>
               </div>
-
-
-
-
-
       )
   }
 
@@ -102,6 +97,8 @@ class Bar extends React.Component {
                   </a>
                 </span>
 
+                <SelectOption/>
+                
                 <span className="navbar-item">
                   <a className="button is-primary has-text-black" style={{fontSize: "75%"}} href="/contact">
                     <span>Contact</span>
@@ -109,7 +106,7 @@ class Bar extends React.Component {
                 </span>   
 
 
-              <SelectOption/>
+             
 
 
 
