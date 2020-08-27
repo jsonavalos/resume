@@ -36,7 +36,7 @@ function Home() {
       <span class="icon is-small">
         <i class="fa fa-download"></i>
       </span>
-      <span className="is-family-code">Jason's Resume</span>
+      <span className="is-family-code">Jason's Résumé</span>
     </a>
 
                         </div>

@@ -44,7 +44,7 @@ function Experience() {
 
                                     <header className="card-header has-background-success ">
                                         <p className="card-header-title is-centered is-family-code">
-                                            DUTIES AND RESPONSABILITIES
+                                            DUTIES AND RESPONSIBILITIES
                                         </p>
                                     </header>
                                     <div className="card-content has-text-left is-family-code">
@@ -91,7 +91,7 @@ function Experience() {
                                     <div className="card">
                                         <header className="card-header has-background-success ">
                                             <p className="card-header-title is-centered is-family-code">
-                                                DUTIES AND RESPONSABILITIES
+                                                DUTIES AND RESPONSIBILITIES
                                             </p>
                                         </header>
                                         <div className="card-content has-text-left is-family-code">
@@ -132,7 +132,7 @@ function Experience() {
                                 <div className="card ">
                                     <header className="card-header has-background-success ">
                                         <p className="card-header-title is-centered is-family-code">
-                                            DUTIES AND RESPONSABILITIES
+                                            DUTIES AND RESPONSIBILITIES
                                         </p>
                                     </header>
                                     <div className="card-content has-text-left is-family-code">
@@ -193,7 +193,7 @@ function Experience() {
                                 <div className="card">
                                     <header className="card-header has-background-success ">
                                         <p className="card-header-title is-8 is-centered is-family-code">
-                                            DUTIES AND RESPONSABILITIES
+                                            DUTIES AND RESPONSIBILITIES
                                         </p>
                                     </header>
                                     <div className="card-content has-text-left is-family-code">

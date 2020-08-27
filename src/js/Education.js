@@ -138,7 +138,7 @@ function Education() {
 
 
                           <h2 className="subtitle is-4" id="degrees">
-                              A.S Mathematics
+                              A.S. Mathematics
                               <br/>
                               A.A Mathematics
                           </h2>
