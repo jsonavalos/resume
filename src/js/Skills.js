@@ -1,14 +1,13 @@
 import React from 'react';
 
-import JAVA from './java.png'
-import R from './imagesSkills/R.png'
+
 import ASSEMBLY from './imagesSkills/assembly.png'
 import C from './imagesSkills/C.png'
 import TYPESCRIPT from './imagesSkills/typescript.png'
 import PYCHARM from './imagesSkills/pycharm.png'
 import MATHLAB from './imagesSkills/mathlab.png'
 import LINUX from './imagesSkills/linux.png'
-import GITHUB from './imagesSkills/github.png'
+
 import REACT from './imagesSkills/react.png'
 
 
@@ -25,7 +24,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128 "><img src={JAVA} alt="" /></figure>
+                                        <figure className="image is-128x128 "><img src="https://jwpjea.bn.files.1drv.com/y4mDawOBOTnJunf-s61_TH6RZPo7c5nI8a9XBQzTaE27textTrqZNZ5bcsfSRaPR2O5GhIzoDPT4NtcYk8uJLlwue7-LujfH7hffLHCzbyBR6vu6zMWTYPuTcJlPV4p5ZwSLiZYEDTu-pAKuNqmVaPNvnhVcaT14dJJ_hxZF1gXrNFMofFgWhJIhxmu10nn5zwHmbVEwArFycioSgzwBYkoKw?" alt="JAVA"  /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Java</h5>
@@ -98,7 +97,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-96x96"><img className="" src={R} alt="" /></figure>
+                                        <figure className="image is-96x96"><img src="https://jwp4sg.bn.files.1drv.com/y4m_kicZYtyGSwakq4oyTzIVIzEsV63qEXzmCAgO_FnIEbejgV9FluRgqyeR7sYcg4ijrHEBN7-l9Rfs9SyLoZzSKDDh5SrraRopzDlkmGWH3vmkaCGrv3oLkGH-K_sD-RRE8cksY5IqWbcTasVI3Op4Eas5O1vz2uTE-QWpU7QVlmhBIXyRqbc66TejyIf_fIuW9mfrYss8Gwy74aFQ7Gcvw?" alt="R" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">R</h5>
@@ -186,7 +185,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={R} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src="https://jwp4sg.bn.files.1drv.com/y4m_kicZYtyGSwakq4oyTzIVIzEsV63qEXzmCAgO_FnIEbejgV9FluRgqyeR7sYcg4ijrHEBN7-l9Rfs9SyLoZzSKDDh5SrraRopzDlkmGWH3vmkaCGrv3oLkGH-K_sD-RRE8cksY5IqWbcTasVI3Op4Eas5O1vz2uTE-QWpU7QVlmhBIXyRqbc66TejyIf_fIuW9mfrYss8Gwy74aFQ7Gcvw?"  alt="R" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Rstudio</h5>
@@ -216,7 +215,8 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={GITHUB} alt="" /></figure>
+                                        <figure className="image is-128x128"> <img className="is-rounded" src="https://8saiwq.bn.files.1drv.com/y4mObR7QoFOsYq6n2630I7OljS0D4Egp09V5ZtXX2c_vwpROVHLU9fG_2v68mcmg4A9U-eBJTI3HD8CYGix2f8ryDHEvg17uQfx_rOMgRqp9i1PDB1TySg90Wi0yYl6-gOi-xWEqlVO3e5A_MSUydb-aecmpFIAnKb38WzavUZTJ3-Y025Z76Wnwyebrr0xyERH7BJGjZbM9YucMeOc8TgcEg?" alt="Github" /></figure>
+                    
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Github</h5>

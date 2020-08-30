@@ -1,6 +1,5 @@
 import React from 'react';
 import Django from './Django.png'
-import Python from './imagesSkills/python.png'
 import AWS from './imagesSkills/aws.png'
 
 function LinkUp() {
@@ -55,7 +54,7 @@ function LinkUp() {
                 <article className="tile is-child notification is-white">
                   <p className="title">Python</p>
                   <figure className="image is-4by3">
-                        <img src={Python}  alt="Python"/>
+                  <img src="https://jjvrha.bn.files.1drv.com/y4mO41aWThQCHkxWz4O4KZjjrbrVdyjTWPTCvoh8BlC7ZclWfbV39451Wr3bGKSiC4jP0EoelyZxTiQGHZnHg1BnxLY5BTw6Av5BGzQoksrBARx628sfzcHboFm-Rma5-BaoX8Vb6B-ww6z-6JQxH7OWKzxqK_Emcf7TO_U5JSAoJpt76ZS7bcPSZ7-2uWkNgNMkkvpGNwbKu6EUwiNvBC2iQ?" alt="Python" />
                   </figure>
                 </article>
               </div>

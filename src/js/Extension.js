@@ -4,7 +4,6 @@ import name from './Extensions_images/name.png'
 import video1 from './Extensions_images/video1.mov'
 import video2 from './Extensions_images/video2.mov'
 import JEST from './imagesSkills/jest.png'
-import GITHUB from './imagesSkills/github-mark.png'
 function Extension() {
     return (
         <div className="has-text-centered">
@@ -104,7 +103,7 @@ function Extension() {
                 <article className="tile is-child notification is-white">
                   <p className="title">GitHub</p>
                   <figure className="image is-4by3">
-                        <img src={GITHUB}  alt="Python"/>
+                  <img src="https://8saiwq.bn.files.1drv.com/y4mObR7QoFOsYq6n2630I7OljS0D4Egp09V5ZtXX2c_vwpROVHLU9fG_2v68mcmg4A9U-eBJTI3HD8CYGix2f8ryDHEvg17uQfx_rOMgRqp9i1PDB1TySg90Wi0yYl6-gOi-xWEqlVO3e5A_MSUydb-aecmpFIAnKb38WzavUZTJ3-Y025Z76Wnwyebrr0xyERH7BJGjZbM9YucMeOc8TgcEg?" alt="Github" />
                   </figure>
                 </article>
 
