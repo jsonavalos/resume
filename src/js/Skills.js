@@ -4,9 +4,7 @@ import React from 'react';
 import ASSEMBLY from './imagesSkills/assembly.png'
 import C from './imagesSkills/C.png'
 import TYPESCRIPT from './imagesSkills/typescript.png'
-import PYCHARM from './imagesSkills/pycharm.png'
-import MATHLAB from './imagesSkills/mathlab.png'
-import LINUX from './imagesSkills/linux.png'
+
 
 import REACT from './imagesSkills/react.png'
 
@@ -167,7 +165,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={PYCHARM} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src="https://jwpxng.bn.files.1drv.com/y4m2j_wXDgdEdeQIS2WEm8gQ_43OKrH_dxHaW9j5k7lVHxp_QEqoIIEQb31RmeeBONzfDq2QtVRcfa4ztEn1W9yyUAwP-2EhBrdnJI8SP9Ipo5B36UzdZ3W9dGZ0h-QD949ONUuGIqdFoKBJlF_O6YNh465knuRXTOf3TwO2iAU0nE6xI6KTzaCEJ9Mt2-AgC6mbl7cUfWYRWw3JRJFfQokeQ?" alt="Pycharm"  /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Pycharm</h5>
@@ -195,7 +193,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={MATHLAB} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src="https://jwotjw.bn.files.1drv.com/y4muQB_11YHofAfT-QAaonBmXOfyChpeZF4If0duquwLyU17Ep-JViwGqvTtg11CF-WkeFLmzXNX8Z8OzVkMANNNMmxpelpzmkqmT38Z9NPnSFPO81m2h2N2GBCKUzLDZvtfmZK-CcDR893aVFLLlFnTy6w-ZTJH0sr-zJSXl6ODMMefH1JDINFlPyyHWpI2_Kpl-Y0cf7rMGqaGjw81vt9EQ?" alt="Matlab" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Mathlab</h5>
@@ -205,7 +203,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={LINUX} alt="" /></figure>
+                                        <figure className="image is-128x128"><img className="is-rounded" src="https://jwrdpq.bn.files.1drv.com/y4mBK8sHzUgayzO_RcAVkLwf0Aw7azOwdb7XeRILUUY7RV-jibFmK-DoFH06-_9Hu4NH8tWOipO2lIUguzY_ygWID6GWnCDDOvHJoDqNUO4pW64YnDNe6prtorX5mxkZthmD1X6N4Uy_51NNDBYabsqGx4wG4RHkjiTSDbhACx6xORWD1CQXxHq46ml1hMOojAkxQ7lF_D0Pbjf_jh_iq_TMA?" alt="Linux" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Linux</h5>
