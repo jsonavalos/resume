@@ -1,8 +1,6 @@
 import React from 'react';
-import OLC from './OLCFacilitator.png'
-import INTERN from './SummerSupervisor.png'
 import './CSSfiles/HomeCSS.css'
-import CASPTEAM from './imagesSkills/supervisor.png'
+
 
 function Experience() {
     return (
@@ -35,7 +33,7 @@ function Experience() {
                                     </div>
                                 </div>
                                 <figure >
-                                    <img src={CASPTEAM} className="image is-1x1 is-centered"  alt="OLC"/>
+                                <img src="https://8sawta.bn.files.1drv.com/y4mrXL3EUb9OgRG3OtkHvlueI2SgQXq_3rQr9-8YqxuKc2z3PFWILONW6p88JjvmXtoC9NN68iL7HFBsKV1W1_flftW26z3KSkci_bG1KBVnJX4sBTS_ud-28iz7fftO8uOSLNi8dXPWLwD5Zkt3yhhXszSvJZB4UCWJzoHlDMmP7KsIpYquDLGirSWY6FhHCmj5HnIQMFR-lUPqDidlHfhbg?width=2788&height=1276&cropmode=none" width="2788" height="1276" alt="CASP TEAM"/>
                                 </figure>
                                 <br></br>
                            <div className="columns is-gapless is-centered">
@@ -84,7 +82,8 @@ function Experience() {
                                 <div className="card-image level-left is-size-10">
                                     <br/><br/>
                                     <figure >
-                                        <img src={OLC} width={200} height={50}  alt="OLC"/>
+                                
+                                        <img src="https://vqxgtg.bn.files.1drv.com/y4mi3w9A6HUIdGDCNB8ZUEDJmqXd7NwTT16P2_nlutGzSjcAqcbcf6Jk1WdG_WuXat4zdBqyjImFZqAmCU6OAE8CpXgGla03U0nGM67-3dFgaN4PTtZkS9a3H0nx84ugvyiC-V59fBbBc8GLW4eUUSOVYAHiJYbLlrD8ynvz4YEy0Y4YgKHaEVmJ0CFayg7JgkLDhxfTHX0EEitQUgZF7q__g?width=500&height=842&cropmode=none" width="200" height="50" alt="OLC FACILITATOR" />
                                     </figure>
 
                                    <div className="column">
@@ -215,7 +214,7 @@ function Experience() {
 
                                 <div className="card-image is-centered">
                                     <figure >
-                                        <img src={INTERN} width={300} height={150} alt="Intener" />
+                                    <img src="https://8scvpw.bn.files.1drv.com/y4mx64fos0O9bhX15eO-btVAitx30n1j4SCsLuTVTpPnhle3B5tOG4xX0YVwjYh1iVCFw0c8tJc__YT8YOIVXn7X8UWmsjC89jb5JdkArJP1unx6as5hbiBNEAi3_RMkR5_DbAeG67aeeMRkgyY40J87FdVJUCChbKfqDJrWxDQlFCsi831FNVnITG9m15yGGBcH7Hb2M-29Vcrc2tK0oWwpQ?width=1474&height=1280&cropmode=none" width="300" height="150" alt="Summer Lead" />
                                     </figure>
                                 </div>
                             </div>
