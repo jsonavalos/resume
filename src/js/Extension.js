@@ -3,8 +3,6 @@ import linktogithub from './Extensions_images/linktogithub.png'
 import name from './Extensions_images/name.png'
 import video1 from './Extensions_images/video1.mov'
 import video2 from './Extensions_images/video2.mov'
-import NPM from './imagesSkills/npm.png'
-import BOOSTRAP from './imagesSkills/boostrap.png'
 import JEST from './imagesSkills/jest.png'
 import GITHUB from './imagesSkills/github-mark.png'
 function Extension() {
@@ -98,7 +96,7 @@ function Extension() {
                 <article className="tile is-child notification is-white">
                   <p className="title">npm</p>
                   <figure className="image">
-                        <img src={NPM}  alt="Javascript"/>
+                  <img src="https://jjwvpw.bn.files.1drv.com/y4mVSNb0fzszDGrMaoVbed6l_iAS3YurSb0TQBmdXkmyspcayVlk0vgI1YvgWx30ABVJw3NrBV68xktgVTPFk0mSWk8SgR9aeVvaHFJSWByi_IrvIOJwRSp3DWQIXjMIDNwEWBcKNft7I5UtYNreSlDG2WWpfBBXDi_t6u0BU1Un4I-O6cexPIagi8LP5-fkuZ62Ab--uLmwZRlnZFmVjuuhQ?" alt="npm" />
                   </figure>
                 </article>
               </div>
@@ -125,7 +123,7 @@ function Extension() {
                 <article className="tile is-child notification is-white">
                   <p className="title" style={{wordBreak: 'keep-all'}}>Boostrap</p>
                   <figure className="image is-4by3">
-                        <img src={BOOSTRAP}  alt="HTML"/>
+                  <img src="https://jwrkha.bn.files.1drv.com/y4mfL0mQjPmBVsHaf1WZcsQZm5tA1es7lMR3JcWrAAv7gujsnJKycVtY06_iH0Wqn1j9dHF9sUF4sziztG-y2kIgdsP_jKnNkz59pY0xp-dzuekAtSfDruygx4XJ9i4g7pV2oOqyCMB1YcKMlXwZTSrLg3691cANP0V0XyJnZ_8mLC753267SFFZgUoNXrCcD4b5cSt960LacRfSNFXVZlRmA?" alt="Bootstrap" />
                   </figure>
                 </article>
               </div>

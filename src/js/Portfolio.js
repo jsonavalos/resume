@@ -1,9 +1,6 @@
 import React from 'react';
-import HTML from './imagesSkills/html.png'
 import REACT from './imagesSkills/react.png'
 import JSX from './imagesSkills/jsx.png'
-import NPM from './imagesSkills/npm.png'
-import BULMA from './imagesSkills/bulma-banner.png'
 import NETLIFY from './imagesSkills/netlify-logo.png'
 
 
@@ -58,7 +55,7 @@ function Portfolio() {
                 <article className="tile is-child notification is-white">
                   <p className="title">npm</p>
                   <figure className="image is-4by3">
-                        <img src={NPM}  alt="Python"/>
+                  <img src="https://jjwvpw.bn.files.1drv.com/y4mVSNb0fzszDGrMaoVbed6l_iAS3YurSb0TQBmdXkmyspcayVlk0vgI1YvgWx30ABVJw3NrBV68xktgVTPFk0mSWk8SgR9aeVvaHFJSWByi_IrvIOJwRSp3DWQIXjMIDNwEWBcKNft7I5UtYNreSlDG2WWpfBBXDi_t6u0BU1Un4I-O6cexPIagi8LP5-fkuZ62Ab--uLmwZRlnZFmVjuuhQ?" alt="npm" />
                   </figure>
                 </article>
               </div>
@@ -67,7 +64,8 @@ function Portfolio() {
                 <article className="tile is-child notification is-white">
                   <p className="title">HTML</p>
                   <figure className="image is-4by3">
-                        <img src={HTML}  alt="HTML"/>
+                  <img src="https://8sapbq.bn.files.1drv.com/y4mkRnW61WeK4VoJXjkBeMtEtHSBEx6nuWKosaF1EVSi3LkSlLB2mSbPxq5sCokWWUaQWbEMlfjIDhEoyfCA8sbWiLl87kM6e2aLREa35wkMZcUIv6Px2JzP-1xOOV16PwDzs7E1c4OmFuF9B-fHLEEDJLbD3bHsA157Fhwv50cKx32DkZTY9s1sFqUchIO182qhyMnq6CQEBiJQQXKyb3dhg?"  alt="HTML" />
+
                   </figure>
                 </article>
               </div>
@@ -76,7 +74,7 @@ function Portfolio() {
                 <article className="tile is-child notification is-white">
                   <p className="title">Bulma</p>
                   <figure className="image is-4by3">
-                        <img src={BULMA}  alt="HTML"/>
+                  <img src="https://jwpqpq.bn.files.1drv.com/y4mxZytAcIwUKqY0c89CvDaBzarOZHUs9TjBLAf4xXdfkl3OSXtPFVUAcErQtfYzJbsmf3rjuEGGpr3Vwq1GJZXdr5Dx9l_DhI2rgnnvzPuCLzJ7774Nh1LGySowWOEfoucS-PjegRDX3LEy2DxI6M5bAnYwqpQBBcSzyDZb48dXdC0UGdHayPwMMbV8kFQ95zKkLAfxe_lxod9NzVyglcPhg?" alt="BULMA" />
                   </figure>
                 </article>
               </div>

@@ -1,9 +1,6 @@
 import React from 'react';
 import Django from './Django.png'
-import Javascript from './imagesSkills/javascript.png'
 import Python from './imagesSkills/python.png'
-import HTML from './imagesSkills/html.png'
-import BULMA from './imagesSkills/bulma-banner.png'
 import AWS from './imagesSkills/aws.png'
 
 function LinkUp() {
@@ -50,7 +47,7 @@ function LinkUp() {
                 <article className="tile is-child notification is-white">
                   <p className="title" style={{wordBreak: 'keep-all'}}>Javascript</p>
                   <figure className="image is-4by3">
-                        <img src={Javascript}  alt="Javascript"/>
+                  <img src="https://8sd6yg.bn.files.1drv.com/y4mezklGaKlWO-YcAna1Bnn-pwK64cHF3yxJI1TF6RLpful3N-ix5leVVcFc63tAoRy95Vik2UfVartYXQ7rAR8aG_Bos2xAzQPbOfkA1V21Bpn6ACdrbZ9hsqFBDRZ-H3YclxejzL3vGopScrJOcznhhryI3nmIzMUpRVWghZfbI-j3o6hYQbAlSsYybeB3iATHw3KQ-z1cvVzfS9y8IPC6g?" alt="Javascript" />
                   </figure>
                 </article>
               </div>
@@ -67,7 +64,8 @@ function LinkUp() {
                 <article className="tile is-child notification is-white">
                   <p className="title">HTML</p>
                   <figure className="image is-4by3">
-                        <img src={HTML}  alt="HTML"/>
+                  <img src="https://8sapbq.bn.files.1drv.com/y4mkRnW61WeK4VoJXjkBeMtEtHSBEx6nuWKosaF1EVSi3LkSlLB2mSbPxq5sCokWWUaQWbEMlfjIDhEoyfCA8sbWiLl87kM6e2aLREa35wkMZcUIv6Px2JzP-1xOOV16PwDzs7E1c4OmFuF9B-fHLEEDJLbD3bHsA157Fhwv50cKx32DkZTY9s1sFqUchIO182qhyMnq6CQEBiJQQXKyb3dhg?" alt="HTML" />
+
                   </figure>
                 </article>
               </div>
@@ -76,7 +74,7 @@ function LinkUp() {
                 <article className="tile is-child notification is-white">
                   <p className="title">Bulma</p>
                   <figure className="image is-4by3">
-                        <img src={BULMA}  alt="HTML"/>
+                  <img src="https://jwpqpq.bn.files.1drv.com/y4mxZytAcIwUKqY0c89CvDaBzarOZHUs9TjBLAf4xXdfkl3OSXtPFVUAcErQtfYzJbsmf3rjuEGGpr3Vwq1GJZXdr5Dx9l_DhI2rgnnvzPuCLzJ7774Nh1LGySowWOEfoucS-PjegRDX3LEy2DxI6M5bAnYwqpQBBcSzyDZb48dXdC0UGdHayPwMMbV8kFQ95zKkLAfxe_lxod9NzVyglcPhg?" alt="Bulma" />
                   </figure>
                 </article>
               </div>

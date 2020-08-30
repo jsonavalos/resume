@@ -1,7 +1,6 @@
 import React from 'react';
 
 import JAVA from './java.png'
-import HTML from './imagesSkills/html.png'
 import R from './imagesSkills/R.png'
 import ASSEMBLY from './imagesSkills/assembly.png'
 import C from './imagesSkills/C.png'
@@ -69,7 +68,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-96x96"><img className="" src={HTML} alt="" /></figure>
+                                    <img src="https://8sapbq.bn.files.1drv.com/y4mkRnW61WeK4VoJXjkBeMtEtHSBEx6nuWKosaF1EVSi3LkSlLB2mSbPxq5sCokWWUaQWbEMlfjIDhEoyfCA8sbWiLl87kM6e2aLREa35wkMZcUIv6Px2JzP-1xOOV16PwDzs7E1c4OmFuF9B-fHLEEDJLbD3bHsA157Fhwv50cKx32DkZTY9s1sFqUchIO182qhyMnq6CQEBiJQQXKyb3dhg?width=512&height=512&cropmode=none" width="96" height="96" alt="HTML" />
                                     </div>
                                 </div>
                                 <h5 className="title is-5">HTML</h5>
