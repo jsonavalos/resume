@@ -73,8 +73,8 @@ return (
       <div className="container has-text-centered">
          <div className="columns is-vcentered">
             <div className="column is-5">
-               <figure className="image is-4by3" >
-                  <img src={UCSD} alt="Description" id="educationimages" />
+               <figure className="image is-4by3"  >
+                  <img src={UCSD} alt="Description" className="UCSDimage" id="UCSDimage" />
                </figure>
             </div>
             <div className="column is-6 is-offset-1">

@@ -30,6 +30,10 @@ position: center;
 
 }
 
+#UCSDimage:hover{
+    border-radius: 100px;
+}
+
 
 #ucsdTitle{
     font-family: Helvetica, serif;
@@ -60,8 +64,8 @@ position: center;
 
 
 
-#educationimages{
-    border-radius: 10px;
+#educationimages:hover{
+    border-radius: 50px;
 
 }
 
