@@ -1,9 +1,6 @@
 import React from 'react';
-import Javascript from './imagesSkills/javascript.png'
-import HTML from './imagesSkills/html.png'
 import linktogithub from './Extensions_images/linktogithub.png'
 import name from './Extensions_images/name.png'
-import settings from './Extensions_images/settings.png'
 import video1 from './Extensions_images/video1.mov'
 import video2 from './Extensions_images/video2.mov'
 import NPM from './imagesSkills/npm.png'
@@ -39,7 +36,7 @@ function Extension() {
           <div className="columns is-multiline is-centered">
 
             <div className="column is-8 is-4-widescreen mb-5">
-              <div className="block"><img src={settings} alt="" /></div>
+            <img src="https://8sdzgw.bn.files.1drv.com/y4mIqfbrcW6lf42CXAJqg5aIBICp_-LMuEt5egNjhcFlp15qlH2m9dT9DHL6t0Eh88RoYT4mhn2mZD1Z1rwFeEmg7mw_MmRG6RdlT3gLKH8VLTKRdJTU1z7xL1bMneodBo9fFoJarXQ2XEmTZu-jagiGfLbPglETzzXHfigjXNpucAnXMyM0SeGyNIP4XFVLoPzVvNduidSxUxZTScNHA48ng?width=1000&height=630&cropmode=none" width="1000" height="630" alt="settings" />
               <h4 className="title"><small className="number">1</small> Settings Page</h4>
             </div>
 
@@ -93,7 +90,7 @@ function Extension() {
                 <article className="tile is-child notification is-white ">
                   <p className="title" style={{wordBreak: 'keep-all'}}>Javascript</p>
                   <figure className="image is-1">
-                        <img src={Javascript}  alt="Django"/>
+                  <img src="https://8sd6yg.bn.files.1drv.com/y4mezklGaKlWO-YcAna1Bnn-pwK64cHF3yxJI1TF6RLpful3N-ix5leVVcFc63tAoRy95Vik2UfVartYXQ7rAR8aG_Bos2xAzQPbOfkA1V21Bpn6ACdrbZ9hsqFBDRZ-H3YclxejzL3vGopScrJOcznhhryI3nmIzMUpRVWghZfbI-j3o6hYQbAlSsYybeB3iATHw3KQ-z1cvVzfS9y8IPC6g?"  alt="Javascript" />
                   </figure>
                 </article>
               </div>
@@ -119,7 +116,7 @@ function Extension() {
                 <article className="tile is-child notification is-white">
                   <p className="title">HTML</p>
                   <figure className="image is-4by3">
-                        <img src={HTML}  alt="HTML"/>
+                  <img src="https://8sapbq.bn.files.1drv.com/y4mkRnW61WeK4VoJXjkBeMtEtHSBEx6nuWKosaF1EVSi3LkSlLB2mSbPxq5sCokWWUaQWbEMlfjIDhEoyfCA8sbWiLl87kM6e2aLREa35wkMZcUIv6Px2JzP-1xOOV16PwDzs7E1c4OmFuF9B-fHLEEDJLbD3bHsA157Fhwv50cKx32DkZTY9s1sFqUchIO182qhyMnq6CQEBiJQQXKyb3dhg?" alt="HTML"  />
                   </figure>
                 </article>
               </div>
