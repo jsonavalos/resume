@@ -86,7 +86,7 @@ return (
                </h2>
                <br />
                <p className="has-text-centered">
-                  <a className="button is-medium is-primary is-outlined" onClick={handleClickOpen.bind(this, "dialog1")}>
+                  <a id="UCSDButton" className="button is-medium is-primary is-outlined" onClick={handleClickOpen.bind(this, "dialog1")}>
                   Coursework
                   </a>
                </p>
@@ -108,7 +108,7 @@ return (
                </h2>
                <br />
                <p className="has-text-centered">
-                  <a className="button is-medium is-primary is-outlined" rel="noopener noreferrer" onClick={handleClickOpen.bind(this, "dialog2")}>
+                  <a className="button is-medium is-primary is-outlined" id="UCSDButton" rel="noopener noreferrer" onClick={handleClickOpen.bind(this, "dialog2")}>
                   Coursework
                   </a>
                </p>

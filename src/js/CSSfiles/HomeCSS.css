@@ -69,6 +69,10 @@ position: center;
 
 }
 
+#UCSDButton:hover{
+    font-size: xx-large;
+}
+
 #contactimage{
 
     background-image: url("503216.jpg");
