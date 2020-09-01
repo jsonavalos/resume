@@ -29,7 +29,7 @@ function Portfolio() {
             <p className="title has-text-success is-family-code">Development Process</p>
           </div>
           <div className="intro is-5 has-text-left">
-            <p className="subtitle is-family-code ">I created this website using React to practice with the framework and learn JSX. I'm keep on improving this website because I just realized that it has some issues with mobile devices that I've been trying to fix.</p>
+            <p className="subtitle is-family-code ">I created this website using React to practice with JSX.Moreover, I wanted to have a better idea on how to properly use components, state ,and props in React.</p>
           </div>
      
 
