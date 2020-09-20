@@ -3,7 +3,6 @@ import linktogithub from './Extensions_images/linktogithub.png'
 import name from './Extensions_images/name.png'
 import video1 from './Extensions_images/video1.mov'
 import video2 from './Extensions_images/video2.mov'
-import JEST from './imagesSkills/jest.png'
 function Extension() {
     return (
         <div className="has-text-centered">
@@ -132,7 +131,7 @@ function Extension() {
                 <article className="tile is-child notification is-white">
                   <p className="title" >Jest</p>
                   <figure className="image is-4by3">
-                        <img src={JEST}  alt="HTML"/>
+                  <img src="https://jwq8kq.bn.files.1drv.com/y4m4Q0zRtvok44TmVa7D9OV21DUKGNE1CksO_W-UK7JDQxML908xxLQfgtn4hJVcvS8xGRcM_Mh9WKjbAGXqFCb0obb5RUllANBd6U0VODtxQR9LQZwNNyBo3yd87icQ7KVweyrn3dtqJURjFTNZ54AiHCMpbezZGmKBA2Y-FcsR3eWZZfQHliAPGn_1lJytSdjO650dSNDiIlRovDnoKKvhg?" alt="JEST" />
                   </figure>
                 </article>
               </div>

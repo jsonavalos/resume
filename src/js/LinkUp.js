@@ -1,6 +1,4 @@
 import React from 'react';
-import Django from './Django.png'
-import AWS from './imagesSkills/aws.png'
 
 function LinkUp() {
     return (
@@ -38,7 +36,7 @@ function LinkUp() {
                 <article className="tile is-child notification is-white">
                   <p className="title">Django</p>
                   <figure className="image is-4by3">
-                        <img src={Django}  alt="Django"/>
+                  <img src="https://jjuuhw.bn.files.1drv.com/y4m3GldWnu2j4Xqw7jJ67n0u3BYG5AMgNdY5flbl4AUoI8SKozMUggIbw1NK0uEFzp-VomAei9_i5Id-bjeEhMS9k9fswEX32bwZMoX_w6KkjzcYe4MGvAjoXLrrwsZYIaHBDbAt2DjtmFK7UZHADQmDwRSehViMK4LC5ZGBd1rRIZFNspB4ya_cPGqXDOmBAUE2QNEtXt2GjC6JiBLQcqqFw?" alt="Django" />
                   </figure>
                 </article>
               </div>
@@ -81,7 +79,7 @@ function LinkUp() {
                 <article className="tile is-child notification is-white">
                   <p className="title">AWS</p>
                   <figure className="image is-4by3">
-                        <img src={AWS}  alt="HTML"/>
+                  <img src="https://wn7paw.bn.files.1drv.com/y4mNvspfVBuuSDg9fwKgatPrBwGw_uBPpesOFUmfpXAVYFvn9RjlriPDDnBzhUhmaTfn2yMzcJVx1YFu5hUTenw4QnXUUgI88zoz9aKTNUajh-k-7xbyWOgAwPd20VMIaVmlWShuRpe_HIgFI988rizuACGN0pV1pVqlI7tm4rsZrIuE9NGZ2p-lJson4IJucY23SLvny8oaSwMvfzgfexxvg?" alt="AWS" />
                   </figure>
                 </article>
               </div>

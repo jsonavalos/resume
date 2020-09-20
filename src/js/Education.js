@@ -1,7 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import UCSD from './geisel.jpeg'
-import SWC from './SWC.png'
 import './CSSfiles/HomeCSS.css'
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -74,7 +72,7 @@ return (
          <div className="columns is-vcentered">
             <div className="column is-5">
                <figure className="image is-4by3"  >
-                  <img src={UCSD} alt="Description" className="UCSDimage" id="UCSDimage" />
+                  <img src="https://wn7wsg.bn.files.1drv.com/y4mHXYDZ8O33p6hFhNCcjbogiZyxKaszXOy1oVrjlmRNhucRCj6mWdTx7l5sW3Xq-g5hobhUOv_UEWBtqQhuLMEnRvJUPjOzuARLqfKvoimVZZMqCzpdrJcgDjWFNRAFuxzuT-hfXLJjHzBW76JMnvRNMT4DMbcN1CM1GBmtEDcjuXPPQExIhgeJC4niQg3_y-H26NkFX5hl9RaLekTmp_WIQ?" alt="Description" className="UCSDimage" id="UCSDimage" />
                </figure>
             </div>
             <div className="column is-6 is-offset-1">
@@ -115,7 +113,7 @@ return (
             </div>
             <div className="column is-5">
                <figure className="image is-4by3" >
-                  <img src={SWC} alt="Description22" id="educationimages" />
+                  <img src="https://wn4fvq.bn.files.1drv.com/y4mTVAqB72O4naFo5F4_KMBpdYR23UCjtmV9Cw2PSq8jswMjixSJ8DLsypTTM1U3kZhoMG8OJo_oJ4GIDWHQbwr3eINa4CG-79H2yeC70kDkeC03oOzAVpaWu3S0XBkMryPyQsVXkT4nBRpsQm1GTky-rLUoDApduM9nNsAvLx6tzVxxH7-8b2BjGGiBhyslP2sS-ixogomz_G2LSV9EfQOUQ?" alt="Description22" id="educationimages" />
                </figure>
             </div>
          </div>

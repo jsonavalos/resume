@@ -1,14 +1,5 @@
 import React from 'react';
 
-
-import ASSEMBLY from './imagesSkills/assembly.png'
-import C from './imagesSkills/C.png'
-import TYPESCRIPT from './imagesSkills/typescript.png'
-
-
-import REACT from './imagesSkills/react.png'
-
-
 function Skills() {
     return (
         <div>
@@ -53,7 +44,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={ASSEMBLY} alt="" /></figure>
+                                        <figure className="image is-128x128"><img src="https://wn6e4a.bn.files.1drv.com/y4meIJmfNIlXe3Vr5TBD0x_ZcNRqrmSmjSM3fK2ud-vZBwZFVyS0_Y5_Duo29-pcxVJMlhmSKixf06pqEPdFQ3hZ-_JW24furJ9CEw7itZvgHsQTScc46GxTmHVDFfObsXz1XKBJCJmN77OvnEtG7zB0CeTSR_ymnpu1RPQdBuZmFoDbA5PzyYc9ZaxzCIjbV9_zjwWU_CuBxxYYR_E3Syq_w?" alt="Assembly" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Assembly</h5>
@@ -85,7 +76,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-96x96"><img className="" src={TYPESCRIPT} alt="" /></figure>
+                                        <figure className="image is-96x96"><img src="https://xfmyyg.bn.files.1drv.com/y4mIk5my4eJSaIbbo59Bhe72DRHMNU16UNQaEJCjAxKm0WqBDQFz9rP7kSAkXMKCdXMcXzkLDD12pCBrdzfEtM8aFfI3iP_PCrmkW8CXu-CVUjHPJ-ZD5T0ByaGNtRqpfouiSWcJTHWOvSBID_6lC5me9EEHoZjJjaAd1gWKNh5B6mg0qLDWnOYd9_c3f5Z4S-E2dPECDTpWrMD_0QMijwJHg?"  alt="Typescript" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">Typescript</h5>
@@ -115,7 +106,9 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-96x96"><img className="" src={C} alt="" /></figure>
+                                        <figure className="image is-96x96"><img src="https://wn66yq.bn.files.1drv.com/y4mrn3goOmM2p_OhvqzVLGTq_9peNuKr8zvwNgyqcP7JWnNd4VfGmr8nzuYSk_8fCsNVBmJbRxEFgAU0_vhGzMjBXtOVOHcTxQNYuHIQED7neWL-c4eVXfnHPzOJb1CbPU2GwSy_bosjR3ICERgMgfvR02zjSzI2JtDb6-pG1qnAhQJnGxOjM-KvrDn5cyh4WA8Vh6xgC-wWvlcb3FW9YDBwQ?" alt="C" /></figure>
+
+
                                     </div>
                                 </div>
                                 <h5 className="title is-5">C</h5>
@@ -147,7 +140,7 @@ function Skills() {
                             <div className="column is-3">
                                 <div className="level">
                                     <div className="level-item">
-                                        <figure className="image is-128x128"><img className="is-rounded" src={REACT} alt="" /></figure>
+                                        <figure className="image is-128x128"><img src="https://wn4mna.bn.files.1drv.com/y4mtYvsCbo5kMfOHRB0-joWebUYRgxeGMKslbsLiq9lgNFYjdyQscE9idphGLP1kDeoM9bphjezIOmVWPsplJk-zSIY1IUQ6ZwTT1tExbJQQIv60EqKkNWVJTKH6bFog7iV77sfzQpN5Yb63msqn9HhS6JZ9VMsMIW1oG3r4YSIoYltdXkuOfbEDCBUrJRfdJG5hk7Yn0twCklBiX35OtJxDQ?" alt="React" /></figure>
                                     </div>
                                 </div>
                                 <h5 className="title is-5">React</h5>
